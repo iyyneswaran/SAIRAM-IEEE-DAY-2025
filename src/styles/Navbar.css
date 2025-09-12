@@ -1,0 +1,127 @@
+.navbar-container {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    box-shadow: 0 0 1px #7b2dd1;
+}
+
+.navbar-container .logo-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-container .logo-container a img {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-container .nav-menu-lg ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+.navbar-container .nav-menu-lg ul li {
+    list-style: none;
+    color: #a3a3a3;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navbar-container .nav-menu-lg ul li:hover {
+    color: #7b2dd1;
+}
+
+.navbar-container .nav-menu-lg ul li::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #7b2dd1;
+    transition: width 0.3s ease;
+}
+
+.navbar-container .nav-menu-lg ul li:hover::after {
+    width: 100%;
+}
+
+
+.mobile-nav-btn button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger {
+    color: #fafafa;
+    font-size: large;
+}
+
+.sm-menu {
+    display: none;
+    border-bottom: 1px solid #7b2dd1;
+    animation: navbar 0.3s;
+}
+
+.sm-menu.open {
+    display: block;
+}
+
+
+@keyframes navbar {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width:999px) {
+    .mobile-nav-btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width:999px) {
+    .lg-menu {
+        display: none;
+    }
+
+    .lg-btn {
+        display: none;
+    }
+
+    .sm-menu {
+        z-index: 1000;
+        text-align: center;
+    }
+
+    .sm-menu ul li {
+        list-style: none;
+        margin-bottom: 20px;
+    }
+
+    .sm-menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}

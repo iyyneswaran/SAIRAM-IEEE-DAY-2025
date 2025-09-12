@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+  --bg: #0a0a0a;
+  --panel: #0d1220;
+  --ink: #eef2ff;
+  --muted: #bfc7d6;
+  --accent1: #7b2dd1; /* main purple */
+  --accent2: #ff69b4; /* pink */
+  --accent3: #ffd700; /* gold */
+  --glass: rgba(255, 255, 255, 0.05);
+  --card-border: rgba(255, 255, 255, 0.08);
+}
+
+.aboutUs {
+  background: var(--bg);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 100px 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Card layout */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 50px;
+}
+
+.card.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Text box */
+.textContainer {
+  flex: 1;
+  margin-top: 15px;
+  background: var(--glass);
+  border: 1px solid var(--card-border);
+  backdrop-filter: blur(20px);
+  padding: 60px;
+  border-radius: 20px;
+
+  box-shadow: 0 4px 20px rgba(123, 45, 209, 0.15);
+  transition: all 0.35s ease;
+}
+
+.textContainer:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 28px rgba(123, 45, 209, 0.35),
+              0 0 20px rgba(255, 105, 180, 0.15),
+              0 0 30px rgba(255, 215, 0, 0.1);
+}
+
+/* Headings */
+.textContainer h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--accent1), var(--accent2), var(--accent3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 18px;
+}
+
+/* Paragraphs */
+.textContainer p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+/* Image box */
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  padding: 20px;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  filter: drop-shadow(0 0 30px  #7b2dd1);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .card.reverse {
+    flex-direction: column;
+  }
+
+  .textContainer {
+    padding: 30px;
+  }
+
+  .textContainer h2 {
+    font-size: 1.8rem;
+  }
+
+  .textContainer p {
+    font-size: 0.95rem;
+  }
+
+  .imageContainer img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .imageContainer1 {
+    order: 1;
+  }
+
+  .textContainer1 {
+    order: 2;
+  }
+}

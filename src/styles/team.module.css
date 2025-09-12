@@ -1,0 +1,241 @@
+:root {
+  --bg: #0a0a0a;
+  --ink: #f2f2f7;
+  --muted: #b9b9c7;
+  --accent: #7b2dd1;
+  --accent-2: #ff69b4;
+  --accent-3: #ffd700;
+  --card: #161616;
+  --card-border: rgba(255, 255, 255, 0.08);
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* wrapper */
+.aboutWrapper {
+  min-height: 100dvh;
+  padding: 28px clamp(12px, 4vw, 48px);
+  display: block;
+  gap: 36px;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Helvetica Neue",
+    Arial;
+}
+
+/* Generic section */
+.section {
+  margin: 28px 0;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 8px;
+}
+
+/* Section header */
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.centerHeader {
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.sectionTitle {
+  font-size: clamp(20px, 4.5vw, 36px);
+  font-weight: 800;
+  margin-bottom: 6px;
+  margin: 39px;
+}
+
+/* Sub-section header (SOCIETY / COMMUNITY) */
+.subSection {
+  margin-top: 20px;
+}
+
+.subHeader {
+  font-size: clamp(16px, 2.6vw, 20px);
+  font-weight: 700;
+  margin: 12px 0;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+/* --- Grids --- */
+
+/* Patrons: desktop 3 in a row, responsive below */
+.patronsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(14px, 3vw, 22px);
+  align-items: start;
+  margin-top: 6px;
+}
+
+/* Generic 5-column grid for Society / Community / Student Team */
+.gridFive {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: clamp(14px, 3vw, 22px);
+  align-items: start;
+  margin-top: 6px;
+}
+
+/* --- Profile Card --- */
+.profileCard {
+  background: linear-gradient(180deg, var(--card) 0%, #111111 100%);
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  padding: 18px;
+  text-align: center;
+  transition: box-shadow 0.25s ease, border-color 0.25s ease,
+    transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 220px;
+}
+
+.profileCard:hover {
+  border-color: rgba(255, 255, 255, 0.14);
+  box-shadow: 0 4px 10px #7b2dd1;
+  transform: translateY(-6px);
+}
+
+/* image */
+.cardImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.cardImage img {
+  width: clamp(88px, 16vw, 120px);
+  height: clamp(88px, 16vw, 120px);
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+}
+
+/* body */
+.cardBody {
+  padding: 4px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.cardName {
+  margin: 0;
+  font-size: clamp(14px, 1.9vw, 16px);
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.cardNameSuffix {
+  font-weight: 500;
+  color: var(--muted);
+  font-size: 0.9em;
+  margin-left: 6px;
+}
+
+.cardDesc {
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(12px, 1.6vw, 14px);
+  line-height: 1.4;
+  flex: 1;
+}
+
+/* social links */
+.cardLinks {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.cardLinks a {
+  font-size: clamp(18px, 3vw, 22px);
+  transition: transform 0.18s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.cardLinks a:hover {
+  transform: translateY(-3px) scale(1.05);
+}
+
+.iconLinkedin {
+  color: #0077b5;
+}
+
+.iconPhone {
+  color: #34d399;
+}
+
+/* placeholders when no link/phone */
+.iconPlaceholder {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+
+/* RESPONSIVE: medium -> 3 columns; mobile -> 2 columns */
+@media (max-width: 1024px) {
+  .gridFive {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .patronsGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .gridFive {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .patronsGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cardImage img {
+    width: 88px;
+    height: 88px;
+  }
+}
+
+@media (max-width: 600px) {
+  .gridFive {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .patronsGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .aboutWrapper {
+    padding: 18px;
+  }
+
+  .profileCard {
+    padding: 14px;
+  }
+}
+
+/* small polish */
+.section + .section {
+  margin-top: 36px;
+}

@@ -1,0 +1,23 @@
+{
+  "style": "default",
+  "path": "src/components/modern-ui",
+  "typescript": false,
+  "tailwind": false,
+  "framework": "vite",
+  "components": [
+    {
+      "name": "button",
+      "version": "latest",
+      "installedAt": "2025-08-31T18:01:27.625Z"
+    },
+    {
+      "name": "sparkles-text",
+      "version": "latest",
+      "installedAt": "2025-08-31T18:29:52.398Z"
+    }
+  ],
+  "aliases": {
+    "cn": "@/lib/utils",
+    "hook": "@/hooks"
+  }
+}

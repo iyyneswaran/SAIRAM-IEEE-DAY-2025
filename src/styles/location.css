@@ -1,0 +1,29 @@
+#location {
+  background: var(--bg);
+  color: var(--ink);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.location-desc {
+  font-size: 1.1rem;
+  color: var(--muted);
+  max-width: 800px;
+  margin: 0 auto 40px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.location-desc span {
+  color: var(--accent-2);
+  font-weight: bold;
+}
+
+.map-container {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(27, 7, 47, 0.4),
+              0 0 40px rgba(44, 3, 24, 0.3);
+}

@@ -19,12 +19,12 @@ import pwnage_party from '../../assets/pwnage_party.jpg'
 import Vikrambose from "../../assets/coordinators/vikrambose.jpg";
 import shivani from "../../assets/coordinators/shivani.png";
 import trivikram from "../../assets/coordinators/trivikraman.jpg";
-import sanjays from "../../assets/coordinators/SANJAIKUMAR.jpg";
-import Gengaraj from "../../assets/coordinators/Gengaraj.jpg";
+import sanjays from "../../assets/coordinators/sanjaikumar.jpg";
+import Gengaraj from "../../assets/coordinators/gengaraj.jpg";
 import iyyneswaran from "../../assets/coordinators/iyynes.jpg";
 import vishali from "../../assets/coordinators/vishali.jpg";
 import annapoorani from '../../assets/coordinators/annapoorani.jpg'
-import nataraj from '../../assets/coordinators/Nataraj.jpg'
+import nataraj from '../../assets/coordinators/nataraj.jpg'
 import pavithran from '../../assets/coordinators/pavithran.jpg'
 import tejashree from '../../assets/coordinators/tejashree1.jpg'
 import srinidhi from '../../assets/coordinators/srinidhi.jpg'

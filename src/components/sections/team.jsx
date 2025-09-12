@@ -8,23 +8,23 @@ import styles from "../../styles/team.module.css";
 import dummy from "../../assets/coordinators/d.jpg";
 import chairmanImg from "../../assets/coordinators/vikrambose.jpg";
 import viceChairmanImg from "../../assets/coordinators/anto.jpg";
-import secretary1 from '../../assets/coordinators/Srinatheesh.png'
+import secretary1 from "../../assets/coordinators/srinatheesh.png";
 import communicatorImg from "../../assets/coordinators/iyynes.jpg";
 import mastermindImg from "../../assets/coordinators/trivikraman.jpg";
-import treasurer1 from '../../assets/coordinators/Vishali.jpg'
+import treasurer1 from '../../assets/coordinators/vishali.jpg'
 import treasurer2 from '../../assets/coordinators/subhashini.jpg'
-import mainSecr from '../../assets/coordinators/SANJAIKUMAR.jpg'
+import mainSecr from '../../assets/coordinators/sanjaikumar.jpg'
 
 // sec
-import secViceChairImg from '../../assets/coordinators/Nataraj.jpg'
-import secpresentinf from '../../assets/coordinators/Gengaraj.jpg'
+import secViceChairImg from '../../assets/coordinators/nataraj.jpg'
+import secpresentinf from '../../assets/coordinators/gengaraj.jpg'
 import secpresentAdv from '../../assets/coordinators/Jagadeesh.jpeg'
-import secElectCom from '../../assets/coordinators/LINGESH.jpg'
-import secElectCom2 from '../../assets/coordinators/PRAGADEESHWARAN.jpg'
-import secPresentSecr from '../../assets/coordinators/PAVITHRAN.jpg'
-import secElectChair from '../../assets/coordinators/SANJAY.png'
+import secElectCom from '../../assets/coordinators/lingesh.jpg'
+import secElectCom2 from '../../assets/coordinators/pragadeeshwaran.jpg'
+import secPresentSecr from '../../assets/coordinators/pavithran.jpg'
+import secElectChair from '../../assets/coordinators/sanjay.png'
 import secPresentCom from '../../assets/coordinators/srisaiseenu.jpg'
-import secMainSecr from '../../assets/coordinators/SRINIDHI.jpg'
+import secMainSecr from '../../assets/coordinators/srinidhi.jpg'
 import secElectSecr from '../../assets/coordinators/tejashree1.jpg'
 
 

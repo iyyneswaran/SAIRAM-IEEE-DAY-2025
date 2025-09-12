@@ -165,8 +165,8 @@ export default function Events() {
         image: promptopia,
         category: "tech",
         coordinators: [
-          { name: "Balamurugan", role: "Coordinator", img: balamurugan, socials: { linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277/", phone: "9500177775" } },
-          { name: "Srinidhi T", role: "Secretary", img: srinidhi, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9600057439" } },
+          { name: "Balamurugan", role: "Coordinator", img: balamurugan, socials: { linkedin: "https://www.linkedin.com/in/balamurugan-sakthivel-443080294", phone: "9042948523" } },
+          { name: "Srinidhi T", role: "Secretary", img: srinidhi, socials: { linkedin: "https://www.linkedin.com/in/srinidhithiyagarajan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9600057439" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSfmAVCD3TG1jJQZZBYYptP5MTSyaQt3W5jFB9ar2SCGvd46NQ/viewform?usp=header",
         rounds: [
@@ -239,7 +239,7 @@ export default function Events() {
         image: cryticx,
         category: "tech",
         coordinators: [
-          { name: "Ajitha Ananthi", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277/", phone: "9500177775" } },
+          { name: "Ajitha Ananthi", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://www.linkedin.com/in/ajitha268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9789846676" } },
           { name: "Lingesh P T", role: "Communicator", img: lingesh, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSe0-Dd4C0sDTo_TyGVf0qzNHQ2cmTjTzXQZgqEsJ0CI-s2pWw/viewform?usp=header",

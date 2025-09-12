@@ -5,7 +5,7 @@ import { SparklesText } from "../modern-ui/sparkles-text";
 import "../../styles/Event.css";
 
 // Event images
-import quirkyTank from '../../assets/quirky_Tank.jpg'
+import quirkyTank from "../../assets/quirky_tank.jpg";
 import cryticX from '../../assets/cryticX.jpg'
 import yaaplikkanam from '../../assets/yaapilakkanam.jpg'
 import circuitCraze from '../../assets/circuit_craze.jpg'

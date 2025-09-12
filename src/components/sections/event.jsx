@@ -18,7 +18,7 @@ import pwnage_party from '../../assets/pwnage_party.jpg'
 // Coordinator images
 import Vikrambose from "../../assets/coordinators/vikrambose.jpg";
 import shivani from "../../assets/coordinators/shivani.png";
-import trivikram from "../../assets/coordinators/trivikraman.jpg";
+import trivikraman from "../../assets/coordinators/trivikraman.jpg";
 import sanjays from "../../assets/coordinators/sanjaikumar.jpg";
 import Gengaraj from "../../assets/coordinators/gengaraj.jpg";
 import iyyneswaran from "../../assets/coordinators/iyynes.jpg";
@@ -100,7 +100,7 @@ export default function Events() {
         image: circuitCraze,
         category: "tech",
         coordinators: [
-          { name: "TRIVIKRAMAN T S", role: "Mastermind", img: trivikram, socials: { linkedin: "https://www.linkedin.com/in/pavithran-ma77b20296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "8838218061" } },
+          { name: "TRIVIKRAMAN T S", role: "Mastermind", img: trivikraman, socials: { linkedin: "https://www.linkedin.com/in/pavithran-ma77b20296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "8838218061" } },
           { name: "PAVITHRAN M", role: "Secretary", img: pavithran, socials: { linkedin: "https://www.linkedin.com/in/trivikraman-t-s2828a2291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "7845194171" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSeM1IVkV5rKCj467fdSEx1aUtQKc2FrBi_7xNbbwi6BSf_F6g/viewform?usp=header",
@@ -145,8 +145,8 @@ export default function Events() {
         image: viralLolgorithms,
         category: "Non-Tech",
         coordinators: [
-          { name: "Parveen Begum", role: "Coordinator", img: trivikram, socials: { linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277/", phone: "9500177775" } },
-          { name: "Sreelaya", role: "Coordinator", img: trivikram, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
+          { name: "Parveen Begum", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277/", phone: "9500177775" } },
+          { name: "Sreelaya", role: "Coordinator", img: trivikraman, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSdtQuKuSvDMLXJhhTJ13JBfSoTXSRTn4yHmbsJV_5EfDFvNaQ/viewform?usp=header",
         rounds: [
@@ -239,7 +239,7 @@ export default function Events() {
         image: cryticX,
         category: "tech",
         coordinators: [
-          { name: "Ajitha Ananthi", role: "Coordinator", img: trivikram, socials: { linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277/", phone: "9500177775" } },
+          { name: "Ajitha Ananthi", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277/", phone: "9500177775" } },
           { name: "Lingesh P T", role: "Communicator", img: lingesh, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSe0-Dd4C0sDTo_TyGVf0qzNHQ2cmTjTzXQZgqEsJ0CI-s2pWw/viewform?usp=header",
@@ -271,8 +271,8 @@ export default function Events() {
         teamSize: "Individual",
         image: cryticX,
         coordinators: [
-          { name: "Sarah Wilson", role: "Coordinator", img: trivikram, socials: { linkedin: "https://linkedin.com/in/sarah", phone: "5566778899" } },
-          { name: "Vikram Patel", role: "Coordinator", img: trivikram, socials: { linkedin: "https://linkedin.com/in/vikram", phone: "6677889900" } },
+          { name: "Sarah Wilson", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/sarah", phone: "5566778899" } },
+          { name: "Vikram Patel", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/vikram", phone: "6677889900" } },
         ],
         googleForm: "https://forms.gle/your-workshop-form",
         rounds: [

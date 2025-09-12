@@ -5,11 +5,11 @@ import { SparklesText } from "../modern-ui/sparkles-text";
 import "../../styles/Event.css";
 
 // Event images
-import quirkyTank from "../../assets/quirky_tank.jpg";
-import cryticX from '../../assets/cryticX.jpg'
+import quirkytank from "../../assets/quirky_tank.jpg";
+import cryticx from '../../assets/cryticx.jpg'
 import yaaplikkanam from '../../assets/yaapilakkanam.jpg'
 import circuitCraze from '../../assets/circuit_craze.jpg'
-import hackTales from '../../assets/hack_tales.jpg'
+import hacktales from '../../assets/hack_tales.jpg'
 import viralLolgorithms from '../../assets/viral_lolgorithms.jpg'
 import promptopia from '../../assets/promptopia.jpg'
 import reverzion from '../../assets/reverzion.jpg'
@@ -50,7 +50,7 @@ export default function Events() {
         title: "Quirky Tank",
         dateTime: "18 Sep, 10:00 AM",
         teamSize: "2 Members",
-        image: quirkyTank,
+        image: quirkytank,
         category: "tech",
         coordinators: [
           { name: "Shivani MS", role: "Coordinator", img: shivani, socials: { linkedin: "https://www.linkedin.com/in/shivani-ms", phone: "6374785113" } },
@@ -118,7 +118,7 @@ export default function Events() {
         title: "Hack Tales",
         dateTime: "19 Sep, 10:00 AM",
         teamSize: "2-4 Members",
-        image: hackTales,
+        image: hacktales,
         category: "tech",
         coordinators: [
           { name: "Annapoorani A", role: "Coordinator", img: annapoorani, socials: { linkedin: "https://www.linkedin.com/in/annapoorani-alagananthan/", phone: "9361528505" } },
@@ -236,7 +236,7 @@ export default function Events() {
         title: "cryticX",
         dateTime: "19 Sep, 02:00 PM",
         teamSize: "2 - 3 Members",
-        image: cryticX,
+        image: cryticx,
         category: "tech",
         coordinators: [
           { name: "Ajitha Ananthi", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277/", phone: "9500177775" } },
@@ -269,7 +269,7 @@ export default function Events() {
         title: "cryticX Workshop",
         dateTime: "19 Sep, 10:00 AM",
         teamSize: "Individual",
-        image: cryticX,
+        image: cryticx,
         coordinators: [
           { name: "Sarah Wilson", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/sarah", phone: "5566778899" } },
           { name: "Vikram Patel", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/vikram", phone: "6677889900" } },

@@ -60,7 +60,7 @@ export default function Team() {
 
   const chiefPatrons = [
     {
-      title: "Dr.K.Palanikuma",
+      title: "Dr.K.Palanikumar",
       name: "Principal",
       // desc: "Head of SIT — academic & administrative leadership.",
       img: sitprince,

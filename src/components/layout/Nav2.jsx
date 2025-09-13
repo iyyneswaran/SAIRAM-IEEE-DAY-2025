@@ -51,7 +51,7 @@ export default function Navbar2() {
           {/* <li><a href="#location">Location</a></li>
           <li><Link to="/events">Events</Link></li> */}
           {/* <li><Link to="/gallery">Gallery</Link></li> */}
-          <li><Link to='/team'>Crew</Link></li>
+          <li><Link to='/'>Crew</Link></li>
         </ul>
       </div>
       <ScrollProgress />

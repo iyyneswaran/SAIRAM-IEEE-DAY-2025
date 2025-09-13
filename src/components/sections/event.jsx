@@ -18,9 +18,9 @@ import soon from '../../assets/comingsoon.jpg';
 
 // Coordinator images
 import Vikrambose from "../../assets/coordinators/vikrambose.jpg";
-import shivani from "../../assets/coordinators/shivani.png";
+import shivani from "../../assets/coordinators/SHIVANI png.png";
 import trivikraman from "../../assets/coordinators/Trivikraman.jpg";
-import sanjays from "../../assets/coordinators/sanjaikumar.jpg";
+import sanjays from "../../assets/coordinators/SANJAIKUMAR S.jpg";
 import Gengaraj from "../../assets/coordinators/Gengaraj P - Present - Influencer_.jpg";
 import iyyneswaran from "../../assets/coordinators/iyynes.jpg";
 import vishali from "../../assets/coordinators/vishali.jpg";
@@ -30,13 +30,13 @@ import pavithran from '../../assets/coordinators/PAVITHRAN M - Present Secretary
 import tejashree from '../../assets/coordinators/Tejashree M J_Secretary_Elect.jpg';
 import srinidhi from '../../assets/coordinators/SRINIDHI T - MAIN ( SECRETARY ).jpg';
 import lingesh from '../../assets/coordinators/SRINIDHI T - MAIN ( SECRETARY ).jpg';
-import balamurugan from '../../assets/coordinators/balamurugan.jpg';
+import balamurugan from '../../assets/coordinators/Balamurugan.jpg';
 import ajitha_anadhi from '../../assets/coordinators/ajithaanadhi.jpg'
 import sriram from '../../assets/coordinators/sriram.jpg'
 import parveenbegum from '../../assets/coordinators/parveenbegum.jpg'
 
 import { RiLinkedinBoxFill, RiPhoneFill } from "react-icons/ri";
-
+  
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Events() {

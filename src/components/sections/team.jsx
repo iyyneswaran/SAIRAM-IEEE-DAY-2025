@@ -8,16 +8,16 @@ import styles from "../../styles/team.module.css";
 import dummy from "../../assets/coordinators/d.jpg";
 import chairmanImg from "../../assets/coordinators/vikrambose.jpg";
 import viceChairmanImg from "../../assets/coordinators/anto.jpg";
-import secretary1 from "../../assets/coordinators/srinatheesh.png";
+import secretary1 from "../../assets/coordinators/SRINATHEESH S .png";
 import communicatorImg from "../../assets/coordinators/iyynes.jpg";
 import treasurer1 from '../../assets/coordinators/vishali.jpg'
 import treasurer2 from '../../assets/coordinators/subashini.jpg'
-import mainSecr from '../../assets/coordinators/sanjaikumar.jpg'
+import mainSecr from '../../assets/coordinators/SANJAIKUMAR S.jpg'
 import iyyneswaran from "../../assets/coordinators/iyynes.jpg";
-import shivani from "../../assets/coordinators/shivani.png";
+import shivani from "../../assets/coordinators/SHIVANI png.png";
 import trivikraman from "../../assets/coordinators/Trivikraman.jpg";
 import annapoorani from '../../assets/coordinators/annapoorani.jpg';
-import balamurugan from '../../assets/coordinators/balamurugan.jpg';
+import balamurugan from '../../assets/coordinators/Balamurugan.jpg';
 import ajitha_anadhi from '../../assets/coordinators/ajithaanadhi.jpg';
 import parveenbegum from '../../assets/coordinators/parveenbegum.jpg';
 import shreyas from '../../assets/coordinators/shreya.jpg';

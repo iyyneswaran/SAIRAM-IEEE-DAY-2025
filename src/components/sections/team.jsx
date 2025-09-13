@@ -98,7 +98,7 @@ export default function Team() {
       title: "Krithika",
       name: "Chairman",
       img: krithika,
-      linkedin: "https://www.linkedin.com/in/balamurugan-sakthivel-443080294",
+      linkedin: "https://www.linkedin.com/in/krithika2805",
       phone: "9600203722",
     },
     {
@@ -134,7 +134,7 @@ export default function Team() {
       title: "Srinatheesh S",
       name: "Secretary",
       img: secretary1,
-      linkedin: "https://linkedin.com",
+      linkedin: "https://www.linkedin.com/in/srinatheesh-s-b609b8264",
       phone: "9677151449",
     },
     {

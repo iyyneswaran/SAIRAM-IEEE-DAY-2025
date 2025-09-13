@@ -5,11 +5,9 @@ import { RiLinkedinBoxFill, RiPhoneFill } from "react-icons/ri";
 import styles from "../../styles/team.module.css";
 
 // sit 
-import dummy from "../../assets/coordinators/d.jpg";
 import chairmanImg from "../../assets/coordinators/vikrambose.jpg";
 import viceChairmanImg from "../../assets/coordinators/anto.jpg";
 import secretary1 from "../../assets/coordinators/SRINATHEESH S .png";
-import communicatorImg from "../../assets/coordinators/iyynes.jpg";
 import treasurer1 from '../../assets/coordinators/vishali.jpg'
 import treasurer2 from '../../assets/coordinators/subashini.jpg'
 import mainSecr from '../../assets/coordinators/SANJAIKUMAR S.jpg'
@@ -21,7 +19,27 @@ import balamurugan from '../../assets/coordinators/Balamurugan.jpg';
 import ajitha_anadhi from '../../assets/coordinators/ajithaanadhi.jpg';
 import parveenbegum from '../../assets/coordinators/parveenbegum.jpg';
 import shreyas from '../../assets/coordinators/shreya.jpg';
-import krithika from '../../assets/coordinators/krithika-removebg-preview.png'
+import krithika from '../../assets/coordinators/krithika-removebg-preview.png';
+import jothiesvar from '../../assets/coordinators/jothiesvar.jpg';
+import rashim from '../../assets/coordinators/rashim.jpg';
+import ajithaangelian from '../../assets/coordinators/ajithaangelian.jpg'
+
+// patrons 
+import sitprince from '../../assets/patrons/sitprincipal.jpg';
+import secprince from '../../assets/patrons/secprincipal.jpg';
+import ceo from '../../assets/patrons/ceo.jpg';
+
+// scope 
+import alagumurugan from '../../assets/scope/alagumurugan.jpeg';
+import brinda from '../../assets/scope/brinda.jpeg';
+import brindhadevi from '../../assets/scope/brindhadevi.jpeg';
+import prabavathi from '../../assets/scope/prabavathi.webp';
+import priya from '../../assets/scope/priya.jpeg';
+import rayavel from '../../assets/scope/rayavel.jpeg';
+import saritha from '../../assets/scope/saritha.jpeg';
+import somaprathibha from '../../assets/scope/somaprathibha.jpeg';
+import subha from '../../assets/scope/subha.jpeg';
+import swagata from '../../assets/scope/swagata.jpeg';
 
 // sec
 import sriram from '../../assets/coordinators/sriram.jpg'
@@ -42,28 +60,28 @@ export default function Team() {
 
   const chiefPatrons = [
     {
-      title: "Principal",
-      name: "Dr.K.Palanikumar",
+      title: "Dr.K.Palanikuma",
+      name: "Principal",
       // desc: "Head of SIT — academic & administrative leadership.",
-      img: dummy,
-      linkedin: "https://linkedin.com",
-      phone: "9876543210",
+      img: sitprince,
+      linkedin: "https://www.linkedin.com/in/dr-palanikumar-k-5ba50827",
+      phone: "9677053338",
     },
     {
-      title: "Chairman",
-      name: "Sai Prakash LeoMuthu",
+      title: "Sai Prakash LeoMuthu",
+      name: "Chairman",
       // desc: "Leading with vision and precision.",
-      img: dummy,
-      linkedin: "https://linkedin.com",
-      phone: "1234567890",
+      img: ceo,
+      linkedin: "https://www.linkedin.com/in/sairamceo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      phone: "9962077773",
     },
     {
-      title: "Principal",
-      name: "Student Executive Council",
+      title: "Raja J",
+      name: "Principal",
       // desc: "Student body representative.",
-      img: dummy,
-      linkedin: "https://linkedin.com",
-      phone: "9988776655",
+      img: secprince,
+      linkedin: "https://www.linkedin.com/in/raja-j-32b44164",
+      phone: "9962077773",
     },
   ];
 
@@ -76,7 +94,79 @@ export default function Team() {
       phone: "",
     }));
 
-  const societyCards = makeGenericCards("Society", communicatorImg, 10);
+  // const societyCards = makeGenericCards("Society", swagata, 10);
+  const societyCards = [
+    {
+      title: "Dr.V.Brindha Devi",
+      name: "Strategist",
+      img: brindhadevi,
+      linkedin: "",
+      phone: "",
+    },
+    {
+      title: "Dr.Swagata Sarkar",
+      name: "Captain",
+      img: swagata,
+      linkedin: "",
+      phone: "",
+    },
+    {
+      title: "Dr.S.Subha",
+      name: "Organizer",
+      img: subha,
+      linkedin: "",
+      phone: "",
+    },
+    {
+      title: "Dr.E.Priya",
+      name: "Propogator",
+      img: priya,
+      linkedin: "",
+      phone: "",
+    },
+    {
+      title: "Dr.P.Rayavel",
+      name: "Executor",
+      img: rayavel,
+      linkedin: "",
+      phone: "",
+    },
+    {
+      title: "Dr.R.Azhagumurugan",
+      name: "Strategist",
+      img: alagumurugan,
+      linkedin: "",
+      phone: "",
+    },
+    {
+      title: "Dr.S.Brindha",
+      name: "Captain",
+      img: brinda,
+      linkedin: "",
+      phone: "",
+    },
+    {
+      title: "Dr.G.Saritha",
+      name: "Organizer",
+      img: saritha,
+      linkedin: "",
+      phone: "",
+    },
+    {
+      title: "Dr.R.Prabavathi",
+      name: "Propogator",
+      img: prabavathi,
+      linkedin: "",
+      phone: "",
+    },
+    {
+      title: "Dr.Soma Prathibha",
+      name: "Executor",
+      img: somaprathibha,
+      linkedin: "",
+      phone: "",
+    },
+  ];
   // const communityCards = makeGenericCards("Community", mastermindImg, 10);
 
   const studentTeam = [
@@ -94,7 +184,7 @@ export default function Team() {
       linkedin: "https://www.linkedin.com/in/sri-raman-m-321505253/",
       phone: "9940527926",
     },
-      {
+    {
       title: "Krithika",
       name: "Chairman",
       img: krithika,
@@ -105,17 +195,16 @@ export default function Team() {
       title: "Anto Aswin Herts J",
       name: "Vice Chairman",
       img: viceChairmanImg,
-      linkedin: "https://linkedin.com",
+      linkedin: "https://linkedin.com/in/imantoashwin",
       phone: "8220511287",
     },
-    //  {
-    //   title: "Ajitha Angelian J",
-    //   name: "A. Developer",
-    //   desc: "Project lead & coordinator.",
-    //   img: communicatorImg,
-    //   linkedin: "https://linkedin.com",
-    //   phone: "7000000000",
-    // },
+    {
+      title: "Ajitha Angelian J",
+      name: "A. Developer",
+      img: ajithaangelian,
+      linkedin: "https://www.linkedin.com/in/ajitha-angelian-j/",
+      phone: "8925708639",
+    },
     {
       title: "Nataraj",
       name: "Vice Chairman",
@@ -151,20 +240,20 @@ export default function Team() {
       linkedin: "https://linkedin.com",
       phone: "7000000000",
     },
-    // {
-    //   title: "Rashim R B",
-    //   name: "Webmaster",
-    //   img: communicatorImg,
-    //   linkedin: "https://linkedin.com",
-    //   phone: "7000000000",
-    // },
-    // {
-    //   title: "Jothiesvar K",
-    //   name: "Webmaster",
-    //   img: communicatorImg,
-    //   linkedin: "https://linkedin.com",
-    //   phone: "7000000000",
-    // },
+    {
+      title: "Rashim R B",
+      name: "Webmaster",
+      img: rashim,
+      linkedin: "https://www.linkedin.com/in/rashimraseethali/",
+      phone: "7000000000",
+    },
+    {
+      title: "Jothiesvar K",
+      name: "Webmaster",
+      img: jothiesvar,
+      linkedin: "https://linkedin.com",
+      phone: "7000000000",
+    },
     {
       title: "Gengaraj P",
       name: "Influencer",
@@ -235,56 +324,56 @@ export default function Team() {
     //   linkedin: "https://linkedin.com",
     //   phone: "7000000000",
     // },
-     {
+    {
       title: "Iyyneswaran P",
       name: "Communicator",
       img: iyyneswaran,
       linkedin: "https://www.linkedin.com/in/iyyneswaran07?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "9042524161",
     },
-     {
+    {
       title: "Shivani M S",
       name: "Guide",
       img: shivani,
       linkedin: "https://www.linkedin.com/in/shivani-ms",
       phone: "6374785113",
     },
-     {
+    {
       title: "TRIVIKRAMAN T S",
       name: "Mastermind",
       img: trivikraman,
       linkedin: "https://www.linkedin.com/in/pavithran-ma77b20296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "8838218061",
     },
-     {
+    {
       title: "Annapoorani A",
       name: "Secretary",
       img: annapoorani,
       linkedin: "https://www.linkedin.com/in/annapoorani-alagananthan/",
       phone: "9361528505",
     },
-     {
+    {
       title: "Balamurugan",
       name: "Secretary",
       img: balamurugan,
       linkedin: "https://www.linkedin.com/in/balamurugan-sakthivel-443080294",
       phone: "9042948523",
     },
-     {
+    {
       title: "Ajitha Ananthi",
       name: "Advocate ",
       img: ajitha_anadhi,
       linkedin: "https://www.linkedin.com/in/ajitha268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "9789846676",
     },
-     {
+    {
       title: "Parveen Begum T",
       name: "Mastermind",
       img: parveenbegum,
       linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "9500177775",
     },
-     {
+    {
       title: "Shreyas",
       name: "Communicator",
       img: shreyas,

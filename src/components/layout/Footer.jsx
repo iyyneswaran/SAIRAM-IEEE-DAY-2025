@@ -28,7 +28,7 @@ export default function Footer() {
           <ul>
             <li><Link to="/events">Events</Link></li>
             {/* <li><a href="#about">About</a></li> */}
-            <li><Link to="/">Crew</Link></li>
+            <li><Link to="/team">Crew</Link></li>
           </ul>
         </div>
 

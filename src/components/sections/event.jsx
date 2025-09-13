@@ -6,7 +6,7 @@ import "../../styles/Event.css";
 
 // Event images
 import quirkytank from "../../assets/quirky_tank.jpg";
-import cryticx from '../../assets/cryticx.jpg';
+import cryticx from '../../assets/cryticX.jpg';
 import yaaplikkanam from '../../assets/yaapilakkanam.jpg';
 import circuitCraze from '../../assets/circuit_craze.jpg';
 import hacktales from '../../assets/hack_tales.jpg';

@@ -507,9 +507,11 @@ body {
 
 .coordinator-card img {
   width: 110px;
-  height: 120px;
+  height: 110px;
+  object-fit: cover;
   border-radius: 50%;
   margin-bottom: 10px;
+  border: 1px solid #7b2dd1;
 }
 
 .coordinator-card:hover {

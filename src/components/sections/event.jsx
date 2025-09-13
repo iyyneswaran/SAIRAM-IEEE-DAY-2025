@@ -6,14 +6,15 @@ import "../../styles/Event.css";
 
 // Event images
 import quirkytank from "../../assets/quirky_tank.jpg";
-import cryticx from '../../assets/cryticx.jpg'
-import yaaplikkanam from '../../assets/yaapilakkanam.jpg'
-import circuitCraze from '../../assets/circuit_craze.jpg'
-import hacktales from '../../assets/hack_tales.jpg'
-import viralLolgorithms from '../../assets/viral_lolgorithms.jpg'
-import promptopia from '../../assets/promptopia.jpg'
-import reverzion from '../../assets/reverzion.jpg'
-import pwnage_party from '../../assets/pwnage_party.jpg'
+import cryticx from '../../assets/cryticx.jpg';
+import yaaplikkanam from '../../assets/yaapilakkanam.jpg';
+import circuitCraze from '../../assets/circuit_craze.jpg';
+import hacktales from '../../assets/hack_tales.jpg';
+import viralLolgorithms from '../../assets/viral_lolgorithms.jpg';
+import promptopia from '../../assets/promptopia.jpg';
+import reverzion from '../../assets/reverzion.jpg';
+import pwnage_party from '../../assets/pwnage_party.jpg';
+import soon from '../../assets/comingsoon.jpg';
 
 // Coordinator images
 import Vikrambose from "../../assets/coordinators/vikrambose.jpg";
@@ -23,13 +24,16 @@ import sanjays from "../../assets/coordinators/sanjaikumar.jpg";
 import Gengaraj from "../../assets/coordinators/gengaraj.jpg";
 import iyyneswaran from "../../assets/coordinators/iyynes.jpg";
 import vishali from "../../assets/coordinators/vishali.jpg";
-import annapoorani from '../../assets/coordinators/annapoorani.jpg'
-import nataraj from '../../assets/coordinators/nataraj.jpg'
-import pavithran from '../../assets/coordinators/pavithran.jpg'
-import tejashree from '../../assets/coordinators/tejashree1.jpg'
-import srinidhi from '../../assets/coordinators/srinidhi.jpg'
-import lingesh from '../../assets/coordinators/lingesh.jpg'
-import balamurugan from '../../assets/coordinators/balamurugan.jpg'
+import annapoorani from '../../assets/coordinators/annapoorani.jpg';
+import nataraj from '../../assets/coordinators/nataraj.jpg';
+import pavithran from '../../assets/coordinators/pavithran.jpg';
+import tejashree from '../../assets/coordinators/tejashree1.jpg';
+import srinidhi from '../../assets/coordinators/srinidhi.jpg';
+import lingesh from '../../assets/coordinators/lingesh.jpg';
+import balamurugan from '../../assets/coordinators/balamurugan.jpg';
+import ajitha_anadhi from '../../assets/coordinators/ajithaanadhi.jpg'
+import sriram from '../../assets/coordinators/sriram.jpg'
+import parveenbegum from '../../assets/coordinators/parveenbegum.jpg'
 
 import { RiLinkedinBoxFill, RiPhoneFill } from "react-icons/ri";
 
@@ -53,7 +57,7 @@ export default function Events() {
         image: quirkytank,
         category: "tech",
         coordinators: [
-          { name: "Shivani MS", role: "Coordinator", img: shivani, socials: { linkedin: "https://www.linkedin.com/in/shivani-ms", phone: "6374785113" } },
+          { name: "Shivani M S", role: "Guide", img: shivani, socials: { linkedin: "https://www.linkedin.com/in/shivani-ms", phone: "6374785113" } },
           { name: "Nataraj ", role: "Vice Chair", img: nataraj, socials: { linkedin: "https://www.linkedin.com/in/nataraj-el", phone: "8778380813" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLScg8w-FuM-YrgXjyjrmebOwAx6im2iLTli_a96pd4_3X0Ba9w/viewform?usp=header",
@@ -80,7 +84,7 @@ export default function Events() {
         category: "tech",
         coordinators: [
           { name: "Vishali R", role: "Treasurer", img: vishali, socials: { linkedin: "https://www.linkedin.com/in/vishali-r-421a05256/", phone: "8825462595" } },
-          // { name: "Sri Raman M", role: "Coordinator", img: trivikram, socials: { linkedin: "https://www.linkedin.com/in/sri-raman-m-321505253/", phone: "9940527926" } },
+          { name: "Sri Raman M", role: "Coordinator", img: sriram, socials: { linkedin: "https://www.linkedin.com/in/sri-raman-m-321505253/", phone: "9940527926" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSd-ytlrPwlYhC1nqJRppD61alu1CT3px4bYBLbTeXJt9qKZug/viewform?usp=header",
         rounds: [
@@ -145,7 +149,7 @@ export default function Events() {
         image: viralLolgorithms,
         category: "Non-Tech",
         coordinators: [
-          { name: "Parveen Begum", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277/", phone: "9500177775" } },
+          { name: "Parveen Begum T", role: "Mastermind", img: parveenbegum, socials: { linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9500177775" } },
           { name: "Sreelaya", role: "Coordinator", img: trivikraman, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSdtQuKuSvDMLXJhhTJ13JBfSoTXSRTn4yHmbsJV_5EfDFvNaQ/viewform?usp=header",
@@ -239,7 +243,7 @@ export default function Events() {
         image: cryticx,
         category: "tech",
         coordinators: [
-          { name: "Ajitha Ananthi", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://www.linkedin.com/in/ajitha268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9789846676" } },
+          { name: "Ajitha Ananthi", role: "Advocate ", img: ajitha_anadhi, socials: { linkedin: "https://www.linkedin.com/in/ajitha268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9789846676" } },
           { name: "Lingesh P T", role: "Communicator", img: lingesh, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSe0-Dd4C0sDTo_TyGVf0qzNHQ2cmTjTzXQZgqEsJ0CI-s2pWw/viewform?usp=header",
@@ -266,24 +270,24 @@ export default function Events() {
   const workshopEvents = useMemo(
     () => [
       {
-        title: "cryticX Workshop",
-        dateTime: "19 Sep, 10:00 AM",
+        title: "Something exciting is brewing, Stay tuned for an exclusive reveal!",
+        dateTime: "Will be announced soon",
         teamSize: "Individual",
-        image: cryticx,
+        image: soon,
         coordinators: [
-          { name: "Sarah Wilson", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/sarah", phone: "5566778899" } },
-          { name: "Vikram Patel", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/vikram", phone: "6677889900" } },
+          // { name: "Sarah Wilson", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/sarah", phone: "5566778899" } },
+          // { name: "Vikram Patel", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/vikram", phone: "6677889900" } },
         ],
         googleForm: "https://forms.gle/your-workshop-form",
         rounds: [
-          { title: "Session 1: Basics", desc: "Introduction to AI concepts in robotics." },
-          { title: "Session 2: Hands-On", desc: "Practical exploration with robotics kits." },
-          { title: "Session 3: Build & Showcase", desc: "Build your own AI-driven mini bot and showcase." }
+          { title: "", desc: "Something exciting is brewing, stay tuned for an exclusive reveal!" },
+          // { title: "Session 2: Hands-On", desc: "Practical exploration with robotics kits." },
+          // { title: "Session 3: Build & Showcase", desc: "Build your own AI-driven mini bot and showcase." }
         ],
         rules: [
-          "Follow safety instructions while handling kits.",
-          "Teamwork is encouraged but individual work graded.",
-          "All robots must be returned intact after session."
+          "Stay tuned for an exclusive reveal!",
+          // "Teamwork is encouraged but individual work graded.",
+          // "All robots must be returned intact after session."
         ]
       },
     ],

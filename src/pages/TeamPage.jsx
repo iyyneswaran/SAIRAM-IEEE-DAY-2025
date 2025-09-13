@@ -1,11 +1,11 @@
-import Navbar from '../components/layout/Navbar';
+import Navbar3 from '@/components/layout/Nav3';
 import Team from '../components/sections/team';
 import React from 'react'
 
 const TeamPage = () => {
     return (
         <>
-            <Navbar />
+            <Navbar3 />
             <Team />
         </>
     )

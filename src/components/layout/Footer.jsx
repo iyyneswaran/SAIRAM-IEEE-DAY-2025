@@ -27,24 +27,24 @@ export default function Footer() {
           <h4>Useful Links</h4>
           <ul>
             <li><Link to="/events">Events</Link></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            {/* <li><a href="#about">About</a></li> */}
+            <li><Link to="/team">Crew</Link></li>
           </ul>
         </div>
 
         <div className="footer-time">
           <h4>Working Time</h4>
-          <p>Mon - Fri: 9.00am - 5.00pm</p>
-          <p>Saturday: 10.00am - 6.00pm</p>
+          <p>Mon - Sat: 9.00am - 6.00pm</p>
+          {/* <p>Saturday: 10.00am - 6.00pm</p> */}
           <p>Sunday Closed</p>
         </div>
 
         <div className="footer-address">
           <h4>Our Address</h4>
           <p>
-            IEEE Student Branch<br />
-            Your College Name<br />
-            City, State, ZIP
+            Sai Leo Nagar, West Tambaram, <br />
+            Chennai – 600 044.<br />
+            Tamil Nadu. India<br />
           </p>
         </div>
       </div>

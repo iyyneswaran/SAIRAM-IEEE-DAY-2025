@@ -10,30 +10,31 @@ import chairmanImg from "../../assets/coordinators/vikrambose.jpg";
 import viceChairmanImg from "../../assets/coordinators/anto.jpg";
 import secretary1 from "../../assets/coordinators/srinatheesh.png";
 import communicatorImg from "../../assets/coordinators/iyynes.jpg";
-import mastermindImg from "../../assets/coordinators/trivikraman.jpg";
 import treasurer1 from '../../assets/coordinators/vishali.jpg'
-import treasurer2 from '../../assets/coordinators/subhashini.jpg'
+import treasurer2 from '../../assets/coordinators/subashini.jpg'
 import mainSecr from '../../assets/coordinators/sanjaikumar.jpg'
 import iyyneswaran from "../../assets/coordinators/iyynes.jpg";
 import shivani from "../../assets/coordinators/shivani.png";
-import trivikraman from "../../assets/coordinators/trivikraman.jpg";
+import trivikraman from "../../assets/coordinators/Trivikraman.jpg";
 import annapoorani from '../../assets/coordinators/annapoorani.jpg';
 import balamurugan from '../../assets/coordinators/balamurugan.jpg';
-import ajitha_anadhi from '../../assets/coordinators/ajithaanadhi.jpg'
-import parveenbegum from '../../assets/coordinators/parveenbegum.jpg'
+import ajitha_anadhi from '../../assets/coordinators/ajithaanadhi.jpg';
+import parveenbegum from '../../assets/coordinators/parveenbegum.jpg';
+import shreyas from '../../assets/coordinators/shreya.jpg';
+import krithika from '../../assets/coordinators/krithika-removebg-preview.png'
 
 // sec
 import sriram from '../../assets/coordinators/sriram.jpg'
-import secViceChairImg from '../../assets/coordinators/nataraj.jpg'
-import secpresentinf from '../../assets/coordinators/gengaraj.jpg'
-import secpresentAdv from '../../assets/coordinators/Jagadeesh.jpeg'
-import secElectCom from '../../assets/coordinators/lingesh.jpg'
-import secElectCom2 from '../../assets/coordinators/pragadeeshwaran.jpg'
-import secPresentSecr from '../../assets/coordinators/pavithran.jpg'
-import secElectChair from '../../assets/coordinators/sanjay.png'
-import secPresentCom from '../../assets/coordinators/srisaiseenu.jpg'
-import secMainSecr from '../../assets/coordinators/srinidhi.jpg'
-import secElectSecr from '../../assets/coordinators/tejashree1.jpg'
+import secViceChairImg from '../../assets/coordinators/Nataraj EL_Vice Chair_Elect.jpg'
+import secpresentinf from '../../assets/coordinators/Gengaraj P - Present - Influencer_.jpg'
+import secpresentAdv from '../../assets/coordinators/Jagadeesh G  - Present - Advocate .jpeg'
+import secElectCom from '../../assets/coordinators/LINGESH PT -Elect Communicator.jpg'
+import secElectCom2 from '../../assets/coordinators/M PRAGADEESHWARAN_Communicator Elect.jpg'
+import secPresentSecr from '../../assets/coordinators/PAVITHRAN M - Present Secretary.jpg'
+import secElectChair from '../../assets/coordinators/SANJAY S(ELECTED CHAIRPERSON).png'
+import secPresentCom from '../../assets/coordinators/SRI SAAI SEENU D J - PRESENT COMMUNICATOR_.jpg'
+import secMainSecr from '../../assets/coordinators/SRINIDHI T - MAIN ( SECRETARY ).jpg'
+import secElectSecr from '../../assets/coordinators/Tejashree M J_Secretary_Elect.jpg'
 
 
 export default function Team() {
@@ -92,6 +93,13 @@ export default function Team() {
       img: sriram,
       linkedin: "https://www.linkedin.com/in/sri-raman-m-321505253/",
       phone: "9940527926",
+    },
+      {
+      title: "Krithika",
+      name: "Chairman",
+      img: krithika,
+      linkedin: "https://www.linkedin.com/in/balamurugan-sakthivel-443080294",
+      phone: "9600203722",
     },
     {
       title: "Anto Aswin Herts J",
@@ -275,6 +283,13 @@ export default function Team() {
       img: parveenbegum,
       linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "9500177775",
+    },
+     {
+      title: "Shreyas",
+      name: "Communicator",
+      img: shreyas,
+      linkedin: "https://www.linkedin.com/in/shreyasdhanabal2905?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      phone: "9952942852",
     },
   ];
 

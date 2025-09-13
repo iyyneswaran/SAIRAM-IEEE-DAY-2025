@@ -19,17 +19,17 @@ import soon from '../../assets/comingsoon.jpg';
 // Coordinator images
 import Vikrambose from "../../assets/coordinators/vikrambose.jpg";
 import shivani from "../../assets/coordinators/shivani.png";
-import trivikraman from "../../assets/coordinators/trivikraman.jpg";
+import trivikraman from "../../assets/coordinators/Trivikraman.jpg";
 import sanjays from "../../assets/coordinators/sanjaikumar.jpg";
-import Gengaraj from "../../assets/coordinators/gengaraj.jpg";
+import Gengaraj from "../../assets/coordinators/Gengaraj P - Present - Influencer_.jpg";
 import iyyneswaran from "../../assets/coordinators/iyynes.jpg";
 import vishali from "../../assets/coordinators/vishali.jpg";
 import annapoorani from '../../assets/coordinators/annapoorani.jpg';
-import nataraj from '../../assets/coordinators/nataraj.jpg';
-import pavithran from '../../assets/coordinators/pavithran.jpg';
-import tejashree from '../../assets/coordinators/tejashree1.jpg';
-import srinidhi from '../../assets/coordinators/srinidhi.jpg';
-import lingesh from '../../assets/coordinators/lingesh.jpg';
+import nataraj from '../../assets/coordinators/Nataraj EL_Vice Chair_Elect.jpg';
+import pavithran from '../../assets/coordinators/PAVITHRAN M - Present Secretary.jpg';
+import tejashree from '../../assets/coordinators/Tejashree M J_Secretary_Elect.jpg';
+import srinidhi from '../../assets/coordinators/SRINIDHI T - MAIN ( SECRETARY ).jpg';
+import lingesh from '../../assets/coordinators/SRINIDHI T - MAIN ( SECRETARY ).jpg';
 import balamurugan from '../../assets/coordinators/balamurugan.jpg';
 import ajitha_anadhi from '../../assets/coordinators/ajithaanadhi.jpg'
 import sriram from '../../assets/coordinators/sriram.jpg'
@@ -278,7 +278,7 @@ export default function Events() {
           // { name: "Sarah Wilson", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/sarah", phone: "5566778899" } },
           // { name: "Vikram Patel", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/vikram", phone: "6677889900" } },
         ],
-        googleForm: "https://forms.gle/your-workshop-form",
+        googleForm: "",
         rounds: [
           { title: "", desc: "Something exciting is brewing, stay tuned for an exclusive reveal!" },
           // { title: "Session 2: Hands-On", desc: "Practical exploration with robotics kits." },

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../../styles/Navbar.css";
 import { FaBars } from "react-icons/fa";
-import LOGO from "../../assets/ieeelogo.png"
+import LOGO from "../../assets/logo/ieeelogo.png"
 import { useState } from "react";
 import Button1 from "../common/Button1";
 import { ScrollProgress } from "@/components/magicui/scroll-progress";

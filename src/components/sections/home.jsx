@@ -4,8 +4,8 @@ import "../../styles/Hero.css";
 import Button1 from "../common/Button1";
 import Button2 from "../common/Button2";
 // import { AuroraText } from "@/components/magicui/aurora-text";
-import Ieeelogo from '../../assets/ieeelogo.png'
-import sairamIEEE from '../../assets/ieee_sairam.png'
+import Ieeelogo from '../../assets/logo/ieeelogo.png'
+import sairamIEEE from '../../assets/logo/ieee_sairam.png'
 
 export default function Home() {
   // ---------------- Countdown ----------------

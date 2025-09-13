@@ -5,16 +5,16 @@ import { SparklesText } from "../modern-ui/sparkles-text";
 import "../../styles/Event.css";
 
 // Event images
-import quirkytank from "../../assets/quirky_tank.jpg";
-import cryticx from '../../assets/cryticX.jpg';
-import yaaplikkanam from '../../assets/yaapilakkanam.jpg';
-import circuitCraze from '../../assets/circuit_craze.jpg';
-import hacktales from '../../assets/hack_tales.jpg';
-import viralLolgorithms from '../../assets/viral_lolgorithms.jpg';
-import promptopia from '../../assets/promptopia.jpg';
-import reverzion from '../../assets/reverzion.jpg';
-import pwnage_party from '../../assets/pwnage_party.jpg';
-import soon from '../../assets/comingsoon.jpg';
+import quirkytank from "../../assets/events-img/quirky_tank.jpg";
+import cryticx from '../../assets/events-img/cryticX.jpg';
+import yaaplikkanam from '../../assets/events-img/yaapilakkanam.jpg';
+import circuitCraze from '../../assets/events-img/circuit_craze.jpg';
+import hacktales from '../../assets/events-img/hack_tales.jpg';
+import viralLolgorithms from '../../assets/events-img/viral_lolgorithms.jpg';
+import promptopia from '../../assets/events-img/promptopia.jpg';
+import reverzion from '../../assets/events-img/reverzion.jpg';
+import pwnage_party from '../../assets/events-img/pwnage_party.jpg';
+import soon from '../../assets/events-img/comingsoon.jpg';
 
 // Coordinator images
 import Vikrambose from "../../assets/coordinators/vikrambose.jpg";

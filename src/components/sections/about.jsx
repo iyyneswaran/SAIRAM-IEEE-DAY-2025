@@ -3,8 +3,8 @@ import styles from "../../styles/about.module.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SparklesText } from "../modern-ui/sparkles-text";
-import ieeeImg from "../../assets/ieeelogo.png";
-import sairamImg from '../../assets/ieee_sairam.png'
+import ieeeImg from "../../assets/logo/ieeelogo.png";
+import sairamImg from '../../assets/logo/ieee_sairam.png'
 
 gsap.registerPlugin(ScrollTrigger);
 

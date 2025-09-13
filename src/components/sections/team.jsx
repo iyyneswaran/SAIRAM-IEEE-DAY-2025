@@ -60,20 +60,20 @@ export default function Team() {
 
   const chiefPatrons = [
     {
-      title: "Dr.K.Palanikumar",
-      name: "Principal",
-      // desc: "Head of SIT — academic & administrative leadership.",
-      img: sitprince,
-      linkedin: "https://www.linkedin.com/in/dr-palanikumar-k-5ba50827",
-      phone: "9677053338",
-    },
-    {
       title: "Sai Prakash LeoMuthu",
       name: "Chairman",
       // desc: "Leading with vision and precision.",
       img: ceo,
       linkedin: "https://www.linkedin.com/in/sairamceo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "9962077773",
+    },
+    {
+      title: "Dr.K.Palanikumar",
+      name: "Principal",
+      // desc: "Head of SIT — academic & administrative leadership.",
+      img: sitprince,
+      linkedin: "https://www.linkedin.com/in/dr-palanikumar-k-5ba50827",
+      phone: "9677053338",
     },
     {
       title: "Raja J",

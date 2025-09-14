@@ -367,9 +367,11 @@ export default function Home() {
           )}
         </div>
 
-        <div className="button-container" style={{ animationDelay: "0.85s" }}>
-          <Button1 />
-        </div>
+        <center>
+          <div className="button-container" style={{ animationDelay: "0.85s" }}>
+            <Button1 />
+          </div>
+        </center>
       </div>
     </section>
   );

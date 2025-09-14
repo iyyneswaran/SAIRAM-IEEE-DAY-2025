@@ -8,9 +8,9 @@ export default function Location() {
         <center>
           <SparklesText
             text="OUR LOCATION"
-            sparkleCount={20}
-            sparkleSize={16}
-            speed={0.6}
+            sparkleCount={15}
+            sparkleSize={8}
+            speed={0.1}
             sparkleColors={["#FFD700", "#FF69B4", "#7b2dd1"]}
             className="about-title"
           />

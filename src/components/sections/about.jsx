@@ -54,9 +54,9 @@ export default function AboutUs() {
         >
           <SparklesText
             text="About Us"
-            sparkleCount={10}
-            sparkleSize={18}
-            speed={0.3}
+            sparkleCount={15}
+            sparkleSize={8}
+            speed={0.1}
             sparkleColors={["#FFD700", "#FF69B4", "#7b2dd1"]}
             className="text-5xl font-extrabold hero-sparkles timeline-heading"
           />

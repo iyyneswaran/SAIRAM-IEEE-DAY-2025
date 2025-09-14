@@ -1,17 +1,26 @@
 import React, { useEffect, useRef, useState } from "react";
 import { SparklesText } from "../modern-ui/sparkles-text";
 import "../../styles/gallery.css";
-import Navbar from "../layout/Navbar";
+import galleryimg1 from '../../assets/gallery/0I4A2278.JPG';
+import galleryimg2 from '../../assets/gallery/0I4A2346.JPG';
+import galleryimg3 from '../../assets/gallery/0I4A2476.JPG';
+import galleryimg4 from '../../assets/gallery/0I4A2532.JPG';
+import galleryimg5 from '../../assets/gallery/0I4A2640.JPG';
+import galleryimg6 from '../../assets/gallery/0I4A2668.JPG';
+import galleryimg7 from '../../assets/gallery/0I4A2673.JPG';
+import galleryimg8 from '../../assets/gallery/0I4A2676.JPG';
+import galleryimg9 from '../../assets/gallery/IMG_8601.JPG';
 
 const IMAGES = [
-  { src: "https://source.unsplash.com/800x600?tech&sig=1", title: "Header header", desc: "Design & explore." },
-  { src: "https://source.unsplash.com/800x600?robotics&sig=2", title: "Header header", desc: "Tune sensors & control systems." },
-  { src: "https://source.unsplash.com/800x600?coding&sig=3", title: "Header header", desc: "Rapid coding showdown." },
-  { src: "https://source.unsplash.com/800x600?ai&sig=4", title: "Header header", desc: "Engineer prompts & test." },
-  { src: "https://source.unsplash.com/800x600?electronics&sig=5", title: "Header header", desc: "Simulate circuits in real-time." },
-  { src: "https://source.unsplash.com/800x600?design&sig=6", title: "Header header", desc: "Creative UX & UI challenges." },
-  { src: "https://source.unsplash.com/800x600?vr&sig=7", title: "Header header", desc: "Immersive prototypes." },
-  { src: "https://source.unsplash.com/800x600?security&sig=8", title: "Header header", desc: "Find & fix vulnerabilities." }
+  { src: galleryimg1, title: "", desc: "" },
+  { src: galleryimg2, title: "", desc: "" },
+  { src: galleryimg3, title: "", desc: "" },
+  { src: galleryimg4, title: "", desc: "" },
+  { src: galleryimg5, title: "", desc: "" },
+  { src: galleryimg6, title: "", desc: "" },
+  { src: galleryimg7, title: "", desc: "" },
+  { src: galleryimg8, title: "", desc: "" },
+  { src: galleryimg9, title: "", desc: "" },
 ];
 
 export default function Gallery() {
@@ -132,7 +141,6 @@ export default function Gallery() {
 
   return (
     <>
-      <Navbar />
       <section className="gallery-container">
         <div className="gallery-header">
           <SparklesText

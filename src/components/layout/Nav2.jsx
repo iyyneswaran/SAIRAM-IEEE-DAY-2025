@@ -27,7 +27,7 @@ export default function Navbar2() {
             {/* <li><a href="#timeline">Timeline</a></li> */}
             {/* <li><a href="#location">Location</a></li> */}
             {/* <li><Link to="/events">Events</Link></li> */}
-            {/* <li><Link to="/gallery">Gallery</Link></li> */}
+            <li><Link to="/gallery">Gallery</Link></li>
             <li><Link to='/team'>Crew</Link></li>
           </ul>
         </div>
@@ -50,7 +50,7 @@ export default function Navbar2() {
           {/* <li><a href="#timeline">Timeline</a></li> */}
           {/* <li><a href="#location">Location</a></li>
           <li><Link to="/events">Events</Link></li> */}
-          {/* <li><Link to="/gallery">Gallery</Link></li> */}
+          <li><Link to="/gallery">Gallery</Link></li>
           <li><Link to='/team'>Crew</Link></li>
         </ul>
       </div>

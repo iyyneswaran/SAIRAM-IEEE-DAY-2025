@@ -89,7 +89,7 @@ export default function AboutUs() {
           <div className={styles.textContainer}>
             <h2>Sairam IEEE</h2>
             <p>
-              The IEEE Student Branch at Sairam Institute of Technology encourages
+              The IEEE Student Branch at Sairam Institutions encourages
               students to innovate, research, and explore emerging technologies.
               It provides a platform for technical growth, networking, and
               professional development through workshops, hackathons, and events.

@@ -38,7 +38,7 @@ import priya from '../../assets/scope/priya.jpeg';
 import rayavel from '../../assets/scope/rayavel.jpeg';
 import saritha from '../../assets/scope/saritha.jpeg';
 import somaprathibha from '../../assets/scope/somaprathibha.jpeg';
-import subha from '../../assets/scope/subha.jpeg';
+import subha from '../../assets/scope/subhamam.jpg';
 import swagata from '../../assets/scope/swagata.jpeg';
 
 // sec

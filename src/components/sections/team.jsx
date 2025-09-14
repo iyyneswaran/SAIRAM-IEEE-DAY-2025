@@ -237,8 +237,8 @@ export default function Team() {
       title: "Subashini M",
       name: "Treasurer",
       img: treasurer2,
-      linkedin: "https://linkedin.com",
-      phone: "7000000000",
+      linkedin: "https://www.linkedin.com/in/subashini-mannuraj-93b483254/",
+      phone: "7305056323",
     },
     {
       title: "Rashim R B",

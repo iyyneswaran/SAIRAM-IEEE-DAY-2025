@@ -186,7 +186,7 @@ export default function Team() {
     },
     {
       title: "Krithika",
-      name: "Chairman",
+      name: "Chairperson",
       img: krithika,
       linkedin: "https://www.linkedin.com/in/krithika2805",
       phone: "9600203722",
@@ -216,8 +216,8 @@ export default function Team() {
       title: "Sanjaikumar S",
       name: "Secretary",
       img: mainSecr,
-      linkedin: "https://linkedin.com",
-      phone: "7000000000",
+      linkedin: "https://www.linkedin.com/in/sanjaikumar-s-24699a299",
+      phone: "6380909173",
     },
     {
       title: "Srinatheesh S",

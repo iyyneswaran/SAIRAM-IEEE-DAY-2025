@@ -399,13 +399,13 @@ export default function Events() {
 
               <section className="event-info">
                 <h4>Event Information</h4>
-                <div className="info-card">
+                {/* <div className="info-card">
                   <span>📅</span>
                   <div>
                     <div className="info-label">Date & Time</div>
                     <div className="info-value">{selectedEvent.dateTime}</div>
                   </div>
-                </div>
+                </div> */}
                 <div className="info-card">
                   <span>👥</span>
                   <div>

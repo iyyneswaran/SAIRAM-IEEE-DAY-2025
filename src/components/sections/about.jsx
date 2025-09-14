@@ -33,7 +33,6 @@ export default function AboutUs() {
       );
     });
 
-    // Floating animation for text containers
     gsap.utils.toArray(`.${styles.textContainer}`).forEach((el) => {
       gsap.to(el, {
         y: -15,

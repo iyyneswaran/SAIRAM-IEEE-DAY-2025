@@ -5,9 +5,9 @@
   --panel: #0d1220;
   --ink: #eef2ff;
   --muted: #bfc7d6;
-  --accent1: #7b2dd1; /* main purple */
-  --accent2: #ff69b4; /* pink */
-  --accent3: #ffd700; /* gold */
+  --accent1: #7b2dd1; 
+  --accent2: #ff69b4; 
+  --accent3: #ffd700;
   --glass: rgba(255, 255, 255, 0.05);
   --card-border: rgba(255, 255, 255, 0.08);
 }

@@ -29,15 +29,17 @@ import sitprince from '../../assets/patrons/sitprincipal.jpg';
 import secprince from '../../assets/patrons/secprincipal.jpg';
 import ceo from '../../assets/patrons/ceo.jpg';
 
-// scope 
+// society scope 
 import alagumurugan from '../../assets/scope/alagumurugan.jpeg';
-import brinda from '../../assets/scope/brinda.jpeg';
-import brindhadevi from '../../assets/scope/brindhadevi.jpeg';
-import prabavathi from '../../assets/scope/prabavathi.webp';
-import priya from '../../assets/scope/priya.jpeg';
-import rayavel from '../../assets/scope/rayavel.jpeg';
+import brinda from '../../assets/scope/BrindhaSaminathan.png';
 import saritha from '../../assets/scope/saritha.jpeg';
+import prabavathi from '../../assets/scope/prabavathi.webp';
 import somaprathibha from '../../assets/scope/somaprathibha.jpeg';
+
+// community scope
+import brindhadevi from '../../assets/scope/brindhadevi.jpeg';
+import priya from '../../assets/scope/epriya.jpeg';
+import rayavel from '../../assets/scope/rayavel.jpeg';
 import subha from '../../assets/scope/subhamam.jpg';
 import swagata from '../../assets/scope/swagata.jpeg';
 
@@ -60,8 +62,8 @@ export default function Team() {
 
   const chiefPatrons = [
     {
-      title: "Sai Prakash LeoMuthu",
-      name: "Chairman",
+      title: "Dr.Sai Prakash LeoMuthu",
+      name: "Chairman & CEO, Sairam Institutions",
       // desc: "Leading with vision and precision.",
       img: ceo,
       linkedin: "https://www.linkedin.com/in/sairamceo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -69,15 +71,15 @@ export default function Team() {
     },
     {
       title: "Dr.K.Palanikumar",
-      name: "Principal",
+      name: "Principal of SIT",
       // desc: "Head of SIT — academic & administrative leadership.",
       img: sitprince,
       linkedin: "https://www.linkedin.com/in/dr-palanikumar-k-5ba50827",
       phone: "9677053338",
     },
     {
-      title: "Raja J",
-      name: "Principal",
+      title: "Dr.J.Raja",
+      name: "Principal of SEC",
       // desc: "Student body representative.",
       img: secprince,
       linkedin: "https://www.linkedin.com/in/raja-j-32b44164",
@@ -131,6 +133,9 @@ export default function Team() {
       linkedin: "",
       phone: "",
     },
+  ];
+
+  const communityCards = [
     {
       title: "Dr.R.Azhagumurugan",
       name: "Strategist",
@@ -166,7 +171,7 @@ export default function Team() {
       linkedin: "",
       phone: "",
     },
-  ];
+  ]
   // const communityCards = makeGenericCards("Community", mastermindImg, 10);
 
   const studentTeam = [
@@ -200,7 +205,7 @@ export default function Team() {
     },
     {
       title: "Ajitha Angelian J",
-      name: "A. Developer",
+      name: "Vice Chairperson",
       img: ajithaangelian,
       linkedin: "https://www.linkedin.com/in/ajitha-angelian-j/",
       phone: "8925708639",
@@ -472,11 +477,11 @@ export default function Team() {
         </div>
       </section>
 
-      {/* --- SCOPE: SOCIETY & COMMUNITY --- */}
+      {/*  SCOPE: SOCIETY */}
       <section className={styles.section}>
         <header className={styles.sectionHeader}>
           <SparklesText
-            text="SCOPE"
+            text="SOCIETY SCOPE"
             sparkleCount={10}
             sparkleSize={12}
             speed={0.6}
@@ -489,6 +494,27 @@ export default function Team() {
         <div className={styles.subSection}>
           {/* <h4 className={styles.subHeader}>SOCIETY</h4> */}
           <div className={styles.gridFive}>{societyCards.map(renderCard)}</div>
+        </div>
+
+      </section>
+
+      {/*SCOPE: COMMUNITY */}
+      <section className={styles.section}>
+        <header className={styles.sectionHeader}>
+          <SparklesText
+            text="COMMUNITY SCOPE"
+            sparkleCount={10}
+            sparkleSize={12}
+            speed={0.6}
+            sparkleColors={["#7b2dd1", "#ff69b4"]}
+            className={styles.sectionTitle}
+          />
+        </header>
+
+        {/* SOCIETY */}
+        <div className={styles.subSection}>
+          {/* <h4 className={styles.subHeader}>SOCIETY</h4> */}
+          <div className={styles.gridFive}>{communityCards.map(renderCard)}</div>
         </div>
 
       </section>

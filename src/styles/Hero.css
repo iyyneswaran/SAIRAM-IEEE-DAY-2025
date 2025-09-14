@@ -11,7 +11,7 @@
   --glass: rgba(255, 255, 255, 0.03);
 }
 
-/* ---------- HERO SECTION ---------- */
+/*  HERO SECTION  */
 .heroSection {
   min-height: 70vh;
   display: flex;
@@ -50,7 +50,7 @@
   z-index: 2;
 }
 
-/* ---------- TAGS ---------- */
+/*  TAGS  */
 .tags {
   display: flex;
   gap: 14px;
@@ -76,7 +76,7 @@
   background: #78db89;
 }
 
-/* ---------- HEADERS ---------- */
+/*  HEADERS  */
 .hero-header {
   font-size: clamp(20px, 3.2vw, 32px);
   font-weight: 800;
@@ -105,17 +105,17 @@
   margin: 0 0 8px 0;
 }
 
-/* ---------- LOGOS ---------- */
+/*  LOGOS  */
 .logo-container {
   display: flex;
   justify-content: center;
   text-align: center;
-  gap: 60px; /* space between logos */
+  gap: 60px; 
   align-items: center;
 }
 
 .logo-container img {
-  height: 140px;   /* IEEE Day logo */
+  height: 140px;
   width: auto;
   filter: drop-shadow(0 0 10px #7b2dd1);
   transition: transform 0.3s ease, filter 0.3s ease;
@@ -152,7 +152,7 @@
 
 
 
-/* ---------- COUNTDOWN ---------- */
+/*  COUNTDOWN  */
 .countdown-wrap {
   margin: 12px 0;
   display: flex;
@@ -216,7 +216,7 @@
   padding: 0 6px;
 }
 
-/* ---------- BUTTONS ---------- */
+/*  BUTTONS */
 .button-container {
   display: flex;
   gap: 14px;
@@ -230,7 +230,7 @@
   animation: popIn 0.6s cubic-bezier(.22, .9, .3, 1) forwards;
 }
 
-/* ---------- ANIMATIONS ---------- */
+/*  ANIMATIONS */
 @keyframes popIn {
   from {
     opacity: 0;
@@ -260,7 +260,7 @@
   }
 }
 
-/* ---------- RESPONSIVE ---------- */
+/*  RESPONSIVE  */
 @media (max-width: 560px) {
   .countdown {
     padding: 8px;
@@ -315,7 +315,7 @@
   }
 }
 
-/* ---------- BACKGROUND LAYERS ---------- */
+/*BACKGROUND LAYERS */
 .hero-canvas {
   position: absolute;
   inset: 0;

@@ -188,7 +188,7 @@ export default function Gallery() {
           ))}
         </div>
 
-        {/* Modal Preview */}
+        {/* Modal*/}
         {activeIndex !== null && (
           <div className="modal-overlay" onClick={closeModal}>
             <div

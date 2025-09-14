@@ -119,7 +119,7 @@ export default function Team() {
     },
     {
       title: "Dr.E.Priya",
-      name: "Propogator",
+      name: "Propagator",
       img: priya,
       linkedin: "",
       phone: "",
@@ -154,7 +154,7 @@ export default function Team() {
     },
     {
       title: "Dr.R.Prabavathi",
-      name: "Propogator",
+      name: "Propagator",
       img: prabavathi,
       linkedin: "",
       phone: "",

@@ -150,7 +150,7 @@ export default function Events() {
         category: "Non-Tech",
         coordinators: [
           { name: "Parveen Begum T", role: "Mastermind", img: parveenbegum, socials: { linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9500177775" } },
-          { name: "Sreelaya", role: "Coordinator", img: trivikraman, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
+          // { name: "Sreelaya", role: "Coordinator", img: trivikraman, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSdtQuKuSvDMLXJhhTJ13JBfSoTXSRTn4yHmbsJV_5EfDFvNaQ/viewform?usp=header",
         rounds: [

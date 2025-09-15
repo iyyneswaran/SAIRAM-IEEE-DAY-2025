@@ -36,7 +36,7 @@ export default function HomePage() {
       <Home />
       <Marquee />
       <AboutUs />
-      {/* <Timeline />  */}
+      <Timeline /> 
       {/* <ContactUs /> */}
       <Location />
       <Footer />

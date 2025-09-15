@@ -52,12 +52,10 @@ export default function Timeline() {
 
   const timelines = {
     1: [
-      { title: "Kick-off", desc: "Welcome speech and event inauguration." },
-      { title: "Icebreaker", desc: "Fun games and team activities." },
-      { title: "Kick-off", desc: "Welcome speech and event inauguration." },
-      { title: "Icebreaker", desc: "Fun games and team activities." },
-      { title: "Kick-off", desc: "Welcome speech and event inauguration." },
-      { title: "Icebreaker", desc: "Fun games and team activities." },
+      { title: "Event Registration starts", desc: "Date: 15.09.2025" },
+      { title: "Event Registration closes", desc: "Date: 20.09.2025" },
+      { title: "IEEE DAY", desc: "Date: 13.10.2025 & 14.10.2025" },
+      // { title: "IEEE DAy", desc: "Date: 20.09.2025" },
     ],
     2: [
       { title: "Workshops", desc: "Engaging technical sessions to build and learn." },
@@ -91,7 +89,7 @@ export default function Timeline() {
         </div>
       </center>
 
-      {/* Toggle Buttons */}
+      {/* Toggle Buttons
       <div className="toggleButtons">
         {[1, 2, 3, 4].map((day) => (
           <button
@@ -102,7 +100,7 @@ export default function Timeline() {
             Day {day}
           </button>
         ))}
-      </div>
+      </div> */}
 
       {/* Timeline for selected day */}
       <div className="timeline-container" ref={timelineRef}>

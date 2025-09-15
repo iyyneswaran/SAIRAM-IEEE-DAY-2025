@@ -3,6 +3,8 @@ import "../../styles/Hero.css";
 import Button1 from "../common/Button1";
 import Ieeelogo from "../../assets/logo/ieeelogo.png";
 import sairamIEEE from "../../assets/logo/ieee_sairam.png";
+import { SparklesText } from "../modern-ui/sparkles-text";
+
 
 /**
  * Highly-optimized hero with canvas star + meteor visuals.
@@ -335,6 +337,17 @@ export default function Home() {
         <img src={Ieeelogo} alt="IEEE Day Logo" />
         <img src={sairamIEEE} alt="IEEE Sairam Logo" className="sairam-logo" />
       </div>
+
+      <center>
+        <SparklesText
+          text="IEEE DAY 2025"
+          sparkleCount={10}
+          sparkleSize={12}
+          speed={0.6}
+          sparkleColors={["#7b2dd1", "#ff69b4"]}
+          // className={styles.sectionTitle}
+        />
+      </center>
 
       <div className="hero-context animate" style={{ animationDelay: "0.6s" }}>
         <p className="hero-text">Ignite ideas, build connections, and shape tomorrow with innovation.</p>

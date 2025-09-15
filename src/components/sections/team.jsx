@@ -477,11 +477,11 @@ export default function Team() {
         </div>
       </section>
 
-      {/*  SCOPE: SOCIETY */}
+      {/*  SCOPE: COMMUNITY */}
       <section className={styles.section}>
         <header className={styles.sectionHeader}>
           <SparklesText
-            text="SOCIETY SCOPE"
+            text="COMMUNITY SCOPE"
             sparkleCount={10}
             sparkleSize={12}
             speed={0.6}
@@ -498,11 +498,11 @@ export default function Team() {
 
       </section>
 
-      {/*SCOPE: COMMUNITY */}
+      {/*SCOPE: SOCIETY */}
       <section className={styles.section}>
         <header className={styles.sectionHeader}>
           <SparklesText
-            text="COMMUNITY SCOPE"
+            text="SOCIETY SCOPE"
             sparkleCount={10}
             sparkleSize={12}
             speed={0.6}

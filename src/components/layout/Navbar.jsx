@@ -24,7 +24,7 @@ export default function Navbar() {
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><a href="#about">About Us</a></li>
-            {/* <li><a href="#timeline">Timeline</a></li> */}
+            <li><a href="#timeline">Timeline</a></li>
             <li><a href="#location">Location</a></li>
             <li><Link to="/events">Events</Link></li>
             <li><Link to="/gallery">Gallery</Link></li>
@@ -47,7 +47,7 @@ export default function Navbar() {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><a href="#about">About Us</a></li>
-          {/* <li><a href="#timeline">Timeline</a></li> */}
+          <li><a href="#timeline">Timeline</a></li>
           <li><a href="#location">Location</a></li>
           <li><Link to="/events">Events</Link></li>
           <li><Link to="/gallery">Gallery</Link></li>

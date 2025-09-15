@@ -290,6 +290,27 @@ export default function Events() {
           // "All robots must be returned intact after session."
         ]
       },
+      {
+        title: "Something exciting is brewing, Stay tuned for an exclusive reveal!",
+        dateTime: "Will be announced soon",
+        teamSize: "Individual",
+        image: soon,
+        coordinators: [
+          // { name: "Sarah Wilson", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/sarah", phone: "5566778899" } },
+          // { name: "Vikram Patel", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/vikram", phone: "6677889900" } },
+        ],
+        googleForm: "",
+        rounds: [
+          { title: "", desc: "Something exciting is brewing, stay tuned for an exclusive reveal!" },
+          // { title: "Session 2: Hands-On", desc: "Practical exploration with robotics kits." },
+          // { title: "Session 3: Build & Showcase", desc: "Build your own AI-driven mini bot and showcase." }
+        ],
+        rules: [
+          "Stay tuned for an exclusive reveal!",
+          // "Teamwork is encouraged but individual work graded.",
+          // "All robots must be returned intact after session."
+        ]
+      },
     ],
     []
   );

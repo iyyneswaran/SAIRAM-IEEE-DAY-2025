@@ -172,7 +172,6 @@ export default function Team() {
       phone: "",
     },
   ]
-  // const communityCards = makeGenericCards("Community", mastermindImg, 10);
 
   const studentTeam = [
     {
@@ -270,7 +269,7 @@ export default function Team() {
       title: "Jagadeesh G",
       name: "Advocate",
       img: secpresentAdv,
-      linkedin: "https://linkedin.com",
+      linkedin: "https://www.linkedin.com/in/jagadeesh-gopalakrishnan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "7000000000",
     },
     {
@@ -284,7 +283,7 @@ export default function Team() {
       title: "Pragadeeshwaran M",
       name: "Communicator",
       img: secElectCom2,
-      linkedin: "https://linkedin.com",
+      linkedin: "https://www.linkedin.com/in/pragadeeshwaran-m-15141a299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "7000000000",
     },
     {
@@ -298,7 +297,7 @@ export default function Team() {
       title: "Sri Sai Seenu D J",
       name: "Communicator",
       img: secPresentCom,
-      linkedin: "https://linkedin.com",
+      linkedin: "https://www.linkedin.com/in/srisaaiseenudj?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "7000000000",
     },
     {

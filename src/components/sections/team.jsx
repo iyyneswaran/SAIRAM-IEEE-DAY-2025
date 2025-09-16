@@ -66,24 +66,24 @@ export default function Team() {
       name: "Chairman & CEO, Sairam Institutions",
       // desc: "Leading with vision and precision.",
       img: ceo,
-      linkedin: "https://www.linkedin.com/in/sairamceo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      phone: "9962077773",
+      // linkedin: "https://www.linkedin.com/in/sairamceo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      // phone: "9962077773",
     },
     {
       title: "Dr.K.Palanikumar",
       name: "Principal of SIT",
       // desc: "Head of SIT — academic & administrative leadership.",
       img: sitprince,
-      linkedin: "https://www.linkedin.com/in/dr-palanikumar-k-5ba50827",
-      phone: "9677053338",
+      // linkedin: "https://www.linkedin.com/in/dr-palanikumar-k-5ba50827",
+      // phone: "9677053338",
     },
     {
       title: "Dr.J.Raja",
       name: "Principal of SEC",
       // desc: "Student body representative.",
       img: secprince,
-      linkedin: "https://www.linkedin.com/in/raja-j-32b44164",
-      phone: "9962077773",
+      // linkedin: "https://www.linkedin.com/in/raja-j-32b44164",
+      // phone: "9962077773",
     },
   ];
 
@@ -477,26 +477,6 @@ export default function Team() {
         </div>
       </section>
 
-      {/*  SCOPE: COMMUNITY */}
-      <section className={styles.section}>
-        <header className={styles.sectionHeader}>
-          <SparklesText
-            text="COMMUNITY SCOPE"
-            sparkleCount={10}
-            sparkleSize={12}
-            speed={0.6}
-            sparkleColors={["#7b2dd1", "#ff69b4"]}
-            className={styles.sectionTitle}
-          />
-        </header>
-
-        {/* SOCIETY */}
-        <div className={styles.subSection}>
-          {/* <h4 className={styles.subHeader}>SOCIETY</h4> */}
-          <div className={styles.gridFive}>{societyCards.map(renderCard)}</div>
-        </div>
-
-      </section>
 
       {/*SCOPE: SOCIETY */}
       <section className={styles.section}>
@@ -515,6 +495,27 @@ export default function Team() {
         <div className={styles.subSection}>
           {/* <h4 className={styles.subHeader}>SOCIETY</h4> */}
           <div className={styles.gridFive}>{communityCards.map(renderCard)}</div>
+        </div>
+
+      </section>
+
+      {/*  SCOPE: COMMUNITY */}
+      <section className={styles.section}>
+        <header className={styles.sectionHeader}>
+          <SparklesText
+            text="COMMUNITY SCOPE"
+            sparkleCount={10}
+            sparkleSize={12}
+            speed={0.6}
+            sparkleColors={["#7b2dd1", "#ff69b4"]}
+            className={styles.sectionTitle}
+          />
+        </header>
+
+        {/* SOCIETY */}
+        <div className={styles.subSection}>
+          {/* <h4 className={styles.subHeader}>SOCIETY</h4> */}
+          <div className={styles.gridFive}>{societyCards.map(renderCard)}</div>
         </div>
 
       </section>

@@ -214,8 +214,8 @@ export default function Team() {
       title: "Nataraj E L",
       name: "Vice Chairman",
       img: secViceChairImg,
-      linkedin: "https://linkedin.com",
-      phone: "7000000000",
+      linkedin: "https://www.linkedin.com/in/nataraj-el",
+      phone: "8778380813",
     },
     {
       title: "Sanjaikumar S",
@@ -250,7 +250,7 @@ export default function Team() {
       name: "Webmaster",
       img: rashim,
       linkedin: "https://www.linkedin.com/in/rashimraseethali/",
-      phone: "7000000000",
+      phone: "8778484418",
     },
     {
       title: "Jothiesvar K",
@@ -263,8 +263,8 @@ export default function Team() {
       title: "Gengaraj P",
       name: "Influencer",
       img: secpresentinf,
-      linkedin: "https://linkedin.com",
-      phone: "7000000000",
+      linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290",
+      phone: "8838595065",
     },
     {
       title: "Jagadeesh G",
@@ -277,8 +277,8 @@ export default function Team() {
       title: "Lingesh P T",
       name: "Communicator",
       img: secElectCom,
-      linkedin: "https://linkedin.com",
-      phone: "7000000000",
+      linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290",
+      phone: "9043629957",
     },
     {
       title: "Pragadeeshwaran M",
@@ -319,8 +319,8 @@ export default function Team() {
       title: "Tejashree M J",
       name: "Secretary",
       img: secElectSecr,
-      linkedin: "https://linkedin.com",
-      phone: "7000000000",
+      linkedin: "https://www.linkedin.com/in/tejashree-m-j-5197652b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      phone: "8667543967",
     },
     // {
     //   title: "Vithasini V",

@@ -183,7 +183,7 @@ export default function Team() {
       phone: "9003133237",
     },
     {
-      title: "Sriram",
+      title: "Sri Raman M",
       name: "Chairman",
       img: sriram,
       linkedin: "https://www.linkedin.com/in/sri-raman-m-321505253/",

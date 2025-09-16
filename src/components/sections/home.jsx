@@ -16,7 +16,7 @@ import { SparklesText } from "../modern-ui/sparkles-text";
  */
 export default function Home() {
   // ---------------- Countdown ----------------
-  const EVENT_DATE = new Date(2025, 9, 7, 0, 0, 0);
+  const EVENT_DATE = new Date(2025, 9, 13, 0, 0, 0);
   const calcRemaining = () => {
     const now = new Date();
     const diffMs = Math.max(0, EVENT_DATE.getTime() - now.getTime());

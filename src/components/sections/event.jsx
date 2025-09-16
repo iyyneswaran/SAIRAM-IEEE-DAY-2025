@@ -12,7 +12,7 @@ import circuitCraze from '../../assets/events-img/circuit_craze.jpg';
 import hacktales from '../../assets/events-img/hack_tales.jpg';
 import viralLolgorithms from '../../assets/events-img/viral_lolgorithms.jpg';
 import promptopia from '../../assets/events-img/promptopia.jpg';
-import reverzion from '../../assets/events-img/reverzion.jpg';
+import reverzion from '../../assets/events-img/reversee.jpg';
 import pwnage_party from '../../assets/events-img/pwnage_party.jpg';
 import soon from '../../assets/events-img/comingsoon.jpg';
 
@@ -20,7 +20,6 @@ import soon from '../../assets/events-img/comingsoon.jpg';
 import Vikrambose from "../../assets/coordinators/vikrambose.jpg";
 import shivani from "../../assets/coordinators/SHIVANI png.png";
 import trivikraman from "../../assets/coordinators/Trivikraman.jpg";
-import sanjays from "../../assets/coordinators/SANJAIKUMAR S.jpg";
 import Gengaraj from "../../assets/coordinators/Gengaraj P - Present - Influencer_.jpg";
 import iyyneswaran from "../../assets/coordinators/iyynes.jpg";
 import vishali from "../../assets/coordinators/vishali.jpg";
@@ -29,12 +28,13 @@ import nataraj from '../../assets/coordinators/Nataraj EL_Vice Chair_Elect.jpg';
 import pavithran from '../../assets/coordinators/PAVITHRAN M - Present Secretary.jpg';
 import tejashree from '../../assets/coordinators/Tejashree M J_Secretary_Elect.jpg';
 import srinidhi from '../../assets/coordinators/SRINIDHI T - MAIN ( SECRETARY ).jpg';
-import lingesh from '../../assets/coordinators/SRINIDHI T - MAIN ( SECRETARY ).jpg';
+import lingesh from '../../assets/coordinators/LINGESH PT -Elect Communicator.jpg'
 import balamurugan from '../../assets/coordinators/Balamurugan.jpg';
 import ajitha_anadhi from '../../assets/coordinators/ajithaanadhi.jpg'
 import sriram from '../../assets/coordinators/sriram.jpg'
 import parveenbegum from '../../assets/coordinators/parveenbegum.jpg'
 import sreelaya from '../../assets/coordinators/sreelaya.jpg'
+import sanjays from '../../assets/coordinators/SANJAY S(ELECTED CHAIRPERSON).png'
 
 import { RiLinkedinBoxFill, RiPhoneFill } from "react-icons/ri";
   
@@ -54,12 +54,12 @@ export default function Events() {
       {
         title: "Quirky Tank",
         dateTime: "18 Sep, 10:00 AM",
-        teamSize: "2 Members",
+        teamSize: "2 - 3 Members",
         image: quirkytank,
         category: "tech",
         coordinators: [
           { name: "Shivani M S", role: "Guide", img: shivani, socials: { linkedin: "https://www.linkedin.com/in/shivani-ms", phone: "6374785113" } },
-          { name: "Nataraj ", role: "Vice Chair", img: nataraj, socials: { linkedin: "https://www.linkedin.com/in/nataraj-el", phone: "8778380813" } },
+          { name: "Nataraj E L", role: "Vice Chair", img: nataraj, socials: { linkedin: "https://www.linkedin.com/in/nataraj-el", phone: "8778380813" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLScg8w-FuM-YrgXjyjrmebOwAx6im2iLTli_a96pd4_3X0Ba9w/viewform?usp=header",
         rounds: [
@@ -78,7 +78,7 @@ export default function Events() {
         ]
       },
       {
-        title: "Yaaplikkanam",
+        title: "Yaapilakkanam",
         dateTime: "18 Sep, 11:00 AM",
         teamSize: "3-4 Members",
         image: yaaplikkanam,
@@ -105,8 +105,8 @@ export default function Events() {
         image: circuitCraze,
         category: "tech",
         coordinators: [
-          { name: "TRIVIKRAMAN T S", role: "Mastermind", img: trivikraman, socials: { linkedin: "https://www.linkedin.com/in/pavithran-ma77b20296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "8838218061" } },
-          { name: "PAVITHRAN M", role: "Secretary", img: pavithran, socials: { linkedin: "https://www.linkedin.com/in/trivikraman-t-s2828a2291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "7845194171" } },
+          { name: "Trivikraman. T S", role: "Mastermind", img: trivikraman, socials: { linkedin: "https://www.linkedin.com/in/trivikraman-t-s-2828a2291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "8838218061" } },
+          { name: "Pavithran M", role: "Secretary", img: pavithran, socials: { linkedin: "https://www.linkedin.com/in/pavithran-m-a77b20296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "7845194171" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSeM1IVkV5rKCj467fdSEx1aUtQKc2FrBi_7xNbbwi6BSf_F6g/viewform?usp=header",
         rounds: [
@@ -178,7 +178,7 @@ export default function Events() {
           { title: "", desc: "**Promptopia** is a thrilling AI-powered challenge where teams showcase creativity and prompt engineering skills across word guessing, image replication, and website design, blending innovation, observation, and AI collaboration for futuristic problem-solving." },
         ],
         rules: [
-          "Team Size: Solo participation only (no teams allowed).",
+          "Team Size: 2 -3 Members (Solo participation not allowed).",
           "Time Limit: 15–20 minutes per round; late submissions will not be accepted.",
           "Theme Adherence: Memes must strictly match the announced theme.",
           "Original Work: All memes must be created during the event; no pre-made or copied memes.",
@@ -198,8 +198,8 @@ export default function Events() {
         image: reverzion,
         category: "tech",
         coordinators: [
-          { name: "Iyyneswara P", role: "Communicator", img: iyyneswaran, socials: { linkedin: "https://www.linkedin.com/in/iyyneswaran07?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9042524161" } },
-          { name: "Gengaraj ", role: "Treasurer", img: Gengaraj, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
+          { name: "Iyyneswaran P", role: "Communicator", img: iyyneswaran, socials: { linkedin: "https://www.linkedin.com/in/iyyneswaran07?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9042524161" } },
+          { name: "Gengaraj ", role: "Treasurer", img: Gengaraj, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "8838595065" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSeJdFeA47utC0GGNkSAgUWq5SGgFQe0n0_8w0RppWL7Co8pUg/viewform?usp=header",
         rounds: [
@@ -221,8 +221,8 @@ export default function Events() {
         image: pwnage_party,
         category: "tech",
         coordinators: [
-          { name: "Vikram Bose", role: "Chairman", img: Vikrambose, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
-          { name: "Tejashree", role: "Guide", img: tejashree, socials: { linkedin: "https://www.linkedin.com/in/tejashree-m-j-5197652b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "8667543967" } },
+          { name: "Vikram Bose", role: "Chairman", img: Vikrambose, socials: { linkedin: "https://www.linkedin.com/in/vikram-bose-msu-ba1507258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9003133237" } },
+          { name: "Tejashree MJ", role: "Guide", img: tejashree, socials: { linkedin: "https://www.linkedin.com/in/tejashree-m-j-5197652b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "8667543967" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSdkSU0kHWH7sw3mwuMaUFECeKzmhKgme00KruAJJs_o0Jzgsw/viewform?usp=header",
         rounds: [
@@ -238,13 +238,13 @@ export default function Events() {
         ]
       },
       {
-        title: "cryticX",
+        title: "CrypticX",
         dateTime: "19 Sep, 02:00 PM",
         teamSize: "2 - 3 Members",
         image: cryticx,
         category: "tech",
         coordinators: [
-          { name: "Ajitha Ananthi", role: "Advocate ", img: ajitha_anadhi, socials: { linkedin: "https://www.linkedin.com/in/ajitha268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9789846676" } },
+          { name: "Ajitha Ananthi J", role: "Advocate ", img: ajitha_anadhi, socials: { linkedin: "https://www.linkedin.com/in/ajitha268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9789846676" } },
           { name: "Lingesh P T", role: "Communicator", img: lingesh, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSe0-Dd4C0sDTo_TyGVf0qzNHQ2cmTjTzXQZgqEsJ0CI-s2pWw/viewform?usp=header",
@@ -259,8 +259,6 @@ export default function Events() {
           "Teams must find the correct sequence of QR codes to reach the final destination.",
           "Fair Play: No cheating or outside help. Teams must work independently.",
           "The first team to reach the final point is declared the winner.",
-          "Judging based on creativity + humor.",
-          "Judging based on creativity + humor.",
           "Judging based on creativity + humor.",
         ]
       },

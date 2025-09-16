@@ -211,7 +211,7 @@ export default function Team() {
       phone: "8925708639",
     },
     {
-      title: "Nataraj",
+      title: "Nataraj E L",
       name: "Vice Chairman",
       img: secViceChairImg,
       linkedin: "https://linkedin.com",
@@ -365,7 +365,7 @@ export default function Team() {
       phone: "9042948523",
     },
     {
-      title: "Ajitha Ananthi",
+      title: "Ajitha Ananthi J",
       name: "Advocate ",
       img: ajitha_anadhi,
       linkedin: "https://www.linkedin.com/in/ajitha268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",

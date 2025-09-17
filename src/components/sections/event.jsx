@@ -56,7 +56,7 @@ export default function Events() {
         dateTime: "18 Sep, 10:00 AM",
         teamSize: "2 - 3 Members",
         image: quirkytank,
-        category: "tech",
+        category: "Non-Tech",
         coordinators: [
           { name: "Shivani M S", role: "Guide", img: shivani, socials: { linkedin: "https://www.linkedin.com/in/shivani-ms", phone: "6374785113" } },
           { name: "Nataraj E L", role: "Vice Chair", img: nataraj, socials: { linkedin: "https://www.linkedin.com/in/nataraj-el", phone: "8778380813" } },

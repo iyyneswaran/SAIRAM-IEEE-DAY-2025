@@ -122,7 +122,7 @@ export default function Events() {
       {
         title: "Hack Tales",
         dateTime: "19 Sep, 10:00 AM",
-        teamSize: "2-4 Members",
+        teamSize: "2-3 Members",
         image: hacktales,
         category: "tech",
         coordinators: [

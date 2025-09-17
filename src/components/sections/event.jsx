@@ -37,7 +37,7 @@ import sreelaya from '../../assets/coordinators/sreelaya.jpg'
 import sanjays from '../../assets/coordinators/SANJAY S(ELECTED CHAIRPERSON).png'
 
 import { RiLinkedinBoxFill, RiPhoneFill } from "react-icons/ri";
-  
+
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Events() {
@@ -51,32 +51,6 @@ export default function Events() {
 
   const technicalEvents = useMemo(
     () => [
-      {
-        title: "Quirky Tank",
-        dateTime: "18 Sep, 10:00 AM",
-        teamSize: "2 - 3 Members",
-        image: quirkytank,
-        category: "Non-Tech",
-        coordinators: [
-          { name: "Shivani M S", role: "Guide", img: shivani, socials: { linkedin: "https://www.linkedin.com/in/shivani-ms", phone: "6374785113" } },
-          { name: "Nataraj E L", role: "Vice Chair", img: nataraj, socials: { linkedin: "https://www.linkedin.com/in/nataraj-el", phone: "8778380813" } },
-        ],
-        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLScg8w-FuM-YrgXjyjrmebOwAx6im2iLTli_a96pd4_3X0Ba9w/viewform?usp=header",
-        rounds: [
-          { title: "", desc: "Quirky Tank is a fun spin on Shark Tank! Teams will be given random, quirky objects and must pitch them as the next big invention. With funny names, catchy taglines, and wacky features, it’s all about creativity, humour, and convincing skills." },
-        ],
-        rules: [
-          "Object Allotment – Quirky objects will be given on the spot by the coordinators; no exchanges allowed among the teams.",
-          "Preparation Time – Teams will get 3 minutes to prepare their pitch.",
-          "Pitch Time – Each team will get 3 minutes to present their pitch on stage. Exceeding time will lead to penalties.",
-          "Each pitch must showcase a creative product name, catchy tagline, two funny features, and a strong reason for investor funding.",
-          "Participation – Both members must speak and be actively involved in the pitch.",
-          "Presentation Style – Humor, roleplay, and dramatization are allowed and encouraged.",
-          "Code of Conduct – No offensive, disrespectful, or sensitive content will be entertained.",
-          "Time Discipline – Teams must stop when time is up.",
-          "Authority – Decisions of coordinators/judges are final and binding."
-        ]
-      },
       {
         title: "Yaapilakkanam",
         dateTime: "18 Sep, 11:00 AM",
@@ -141,26 +115,6 @@ export default function Events() {
           "Teams must submit solutions within the given time frame; late submissions will not be considered.",
           " Plagiarism or code copying between teams leads to immediate disqualification.",
           "Judges’ decision will be final and binding in all rounds."
-        ]
-      },
-      {
-        title: "Viral Lolgorithms",
-        dateTime: "19 Sep, 02:00 PM",
-        teamSize: "Solo Entries Only",
-        image: viralLolgorithms,
-        category: "Non-Tech",
-        coordinators: [
-          { name: "Parveen Begum T", role: "Mastermind", img: parveenbegum, socials: { linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9500177775" } },
-          { name: "Sreelaya", role: "Influencer", img: sreelaya, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
-        ],
-        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSdtQuKuSvDMLXJhhTJ13JBfSoTXSRTn4yHmbsJV_5EfDFvNaQ/viewform?usp=header",
-        rounds: [
-          { title: "", desc: "“Laughter + Logic = Viral Lolgorithms!” Get ready for a meme war like no other , three thrilling rounds, anonymous entries, and themes that push your creativity to the edge. Bring your humor, let your memes do the talking, and battle it out to go viral." },
-        ],
-        rules: [
-          "Stick to the theme! Off-topic memes don’t count.",
-          "No offensive or harmful content – we can reject entries if needed.",
-          "Voting is anonymous and you cannot vote for yourself."
         ]
       },
       {
@@ -260,6 +214,52 @@ export default function Events() {
           "Fair Play: No cheating or outside help. Teams must work independently.",
           "The first team to reach the final point is declared the winner.",
           "Judging based on creativity + humor.",
+        ]
+      },
+      {
+        title: "Quirky Tank",
+        dateTime: "18 Sep, 10:00 AM",
+        teamSize: "2 - 3 Members",
+        image: quirkytank,
+        category: "Non-Tech",
+        coordinators: [
+          { name: "Shivani M S", role: "Guide", img: shivani, socials: { linkedin: "https://www.linkedin.com/in/shivani-ms", phone: "6374785113" } },
+          { name: "Nataraj E L", role: "Vice Chair", img: nataraj, socials: { linkedin: "https://www.linkedin.com/in/nataraj-el", phone: "8778380813" } },
+        ],
+        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLScg8w-FuM-YrgXjyjrmebOwAx6im2iLTli_a96pd4_3X0Ba9w/viewform?usp=header",
+        rounds: [
+          { title: "", desc: "Quirky Tank is a fun spin on Shark Tank! Teams will be given random, quirky objects and must pitch them as the next big invention. With funny names, catchy taglines, and wacky features, it’s all about creativity, humour, and convincing skills." },
+        ],
+        rules: [
+          "Object Allotment – Quirky objects will be given on the spot by the coordinators; no exchanges allowed among the teams.",
+          "Preparation Time – Teams will get 3 minutes to prepare their pitch.",
+          "Pitch Time – Each team will get 3 minutes to present their pitch on stage. Exceeding time will lead to penalties.",
+          "Each pitch must showcase a creative product name, catchy tagline, two funny features, and a strong reason for investor funding.",
+          "Participation – Both members must speak and be actively involved in the pitch.",
+          "Presentation Style – Humor, roleplay, and dramatization are allowed and encouraged.",
+          "Code of Conduct – No offensive, disrespectful, or sensitive content will be entertained.",
+          "Time Discipline – Teams must stop when time is up.",
+          "Authority – Decisions of coordinators/judges are final and binding."
+        ]
+      },
+      {
+        title: "Viral Lolgorithms",
+        dateTime: "19 Sep, 02:00 PM",
+        teamSize: "Solo Entries Only",
+        image: viralLolgorithms,
+        category: "Non-Tech",
+        coordinators: [
+          { name: "Parveen Begum T", role: "Mastermind", img: parveenbegum, socials: { linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9500177775" } },
+          { name: "Sreelaya", role: "Influencer", img: sreelaya, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
+        ],
+        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSdtQuKuSvDMLXJhhTJ13JBfSoTXSRTn4yHmbsJV_5EfDFvNaQ/viewform?usp=header",
+        rounds: [
+          { title: "", desc: "“Laughter + Logic = Viral Lolgorithms!” Get ready for a meme war like no other , three thrilling rounds, anonymous entries, and themes that push your creativity to the edge. Bring your humor, let your memes do the talking, and battle it out to go viral." },
+        ],
+        rules: [
+          "Stick to the theme! Off-topic memes don’t count.",
+          "No offensive or harmful content – we can reject entries if needed.",
+          "Voting is anonymous and you cannot vote for yourself."
         ]
       },
     ],

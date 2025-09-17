@@ -35,6 +35,8 @@ import sriram from '../../assets/coordinators/sriram.jpg'
 import parveenbegum from '../../assets/coordinators/parveenbegum.jpg'
 import sreelaya from '../../assets/coordinators/sreelaya.jpg'
 import sanjays from '../../assets/coordinators/SANJAY S(ELECTED CHAIRPERSON).png'
+import srinateesh from "../../assets/coordinators/SRINATHEESH S .png";
+
 
 import { RiLinkedinBoxFill, RiPhoneFill } from "react-icons/ri";
 
@@ -58,7 +60,7 @@ export default function Events() {
         image: yaaplikkanam,
         category: "tech",
         coordinators: [
-          { name: "Vishali R", role: "Treasurer", img: vishali, socials: { linkedin: "https://www.linkedin.com/in/vishali-r-421a05256/", phone: "8825462595" } },
+          { name: "Srinatheesh S", role: "Secretary", img: srinateesh, socials: { linkedin: "https://www.linkedin.com/in/srinatheesh-s-b609b8264", phone: "9677151449" } },
           { name: "Sri Raman M", role: "Coordinator", img: sriram, socials: { linkedin: "https://www.linkedin.com/in/sri-raman-m-321505253/", phone: "9940527926" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSd-ytlrPwlYhC1nqJRppD61alu1CT3px4bYBLbTeXJt9qKZug/viewform?usp=header",

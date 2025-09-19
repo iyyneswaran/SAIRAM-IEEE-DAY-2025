@@ -17,7 +17,7 @@ import pwnage_party from '../../assets/events-img/pwnage_party.jpg';
 import soon from '../../assets/events-img/comingsoon.jpg';
 
 // Coordinator images
-import Vikrambose from "../../assets/coordinators/vikrambose.jpg";
+import Vikrambose from "../../assets/coordinators/bose.jpg";
 import shivani from "../../assets/coordinators/SHIVANI png.png";
 import trivikraman from "../../assets/coordinators/Trivikraman.jpg";
 import Gengaraj from "../../assets/coordinators/Gengaraj P - Present - Influencer_.jpg";

@@ -5,7 +5,7 @@ import { RiLinkedinBoxFill, RiPhoneFill } from "react-icons/ri";
 import styles from "../../styles/team.module.css";
 
 // sit 
-import chairmanImg from "../../assets/coordinators/vikrambose.jpg";
+import chairmanImg from "../../assets/coordinators/bose.jpg";
 import viceChairmanImg from "../../assets/coordinators/anto.jpg";
 import secretary1 from "../../assets/coordinators/SRINATHEESH S .png";
 import treasurer1 from '../../assets/coordinators/vishali.jpg'

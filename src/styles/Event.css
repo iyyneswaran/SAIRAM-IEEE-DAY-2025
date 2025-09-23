@@ -629,3 +629,89 @@ body {
 .social-icon.phone {
   color: #28a745;
 }
+
+
+/* --- Registration notice modal --- */
+.ieee-notice-backdrop {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(3, 8, 18, 0.6);
+  z-index: 1200;
+  padding: 2rem;
+  backdrop-filter: blur(4px);
+}
+
+.ieee-notice-card {
+  width: min(560px, 96%);
+  background: var(--card, #ffffff);
+  color: var(--ink, #0f1720);
+  border-radius: 14px;
+  box-shadow: 0 18px 50px rgba(2, 10, 30, 0.6);
+  padding: 20px 20px 18px;
+  position: relative;
+  animation: ieee-modal-pop 220ms cubic-bezier(.2, .9, .3, 1);
+}
+
+.ieee-notice-close {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  border: 0;
+  background: transparent;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  color: inherit;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.ieee-notice-close:hover {
+  transform: scale(1.05);
+}
+
+.ieee-notice-header {
+  margin-bottom: 6px;
+}
+
+.ieee-notice-header h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  letter-spacing: 0.2px;
+}
+
+.ieee-notice-body {
+  margin: 12px 0 14px;
+}
+
+.ieee-notice-text {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.ieee-notice-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.ieee-notice-footer .btn {
+  min-width: 110px;
+}
+
+@keyframes ieee-modal-pop {
+  from {
+    transform: translateY(8px) scale(0.98);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}

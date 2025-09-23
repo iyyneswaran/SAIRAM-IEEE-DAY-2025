@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from "react";
+import React, { useMemo, useRef, useState, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SparklesText } from "../modern-ui/sparkles-text";
@@ -364,120 +364,182 @@ export default function Events() {
     </div>
   );
 
+  // --- Registration notice modal state/effects ---
+  const [noticeOpen, setNoticeOpen] = useState(false);
+
+  // open on mount (show when user enters the page)
+  useEffect(() => {
+    setNoticeOpen(true);
+  }, []);
+
+  // lock body scroll while modal is open
+  useEffect(() => {
+    document.body.style.overflow = noticeOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [noticeOpen]);
+
+  const closeNotice = () => setNoticeOpen(false);
+
+
   return (
-    <div className="Event-page">
-      <header ref={headerRef} className="event-header">
-        <SparklesText
-          text="IEEE DAY 2025"
-          sparkleCount={25}
-          sparkleSize={18}
-          speed={0.5}
-          sparkleColors={["#FFD700", "#FF69B4", "#7b2dd1"]}
-          className="event-title"
-        />
-        <p className="event-subtitle">Celebrate. Learn. Build. Compete.</p>
-      </header>
 
-      <div className="event-type-container">
-        <button className={`type-btn ${selectedType === "events" ? "active" : ""}`} onClick={() => setSelectedType("events")}>
-          Events
-        </button>
-        <button className={`type-btn ${selectedType === "workshop" ? "active" : ""}`} onClick={() => setSelectedType("workshop")}>
-          Workshop
-        </button>
-      </div>
+    <>
+      {noticeOpen && (
+        <div
+          className="ieee-notice-backdrop"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="ieee-notice-title"
+          aria-describedby="ieee-notice-desc"
+          onClick={closeNotice}
+        >
+          <div className="ieee-notice-card" onClick={(e) => e.stopPropagation()}>
+            <button
+              className="ieee-notice-close"
+              onClick={closeNotice}
+              aria-label="Close notice"
+            >
+              ×
+            </button>
 
-      <section className={`events-lane ${selectedType === "events" ? "show" : "hide"}`} ref={eventsRef}>
-        <h2 className="lane-title">Events</h2>
-        {renderCards(technicalEvents)}
-      </section>
+            <header className="ieee-notice-header">
+              <h3 id="ieee-notice-title">Registration Notice</h3>
+            </header>
 
-      <section className={`events-lane ${selectedType === "workshop" ? "show" : "hide"}`} ref={workshopRef}>
-        <h2 className="lane-title">Workshop</h2>
-        {renderCards(workshopEvents)}
-      </section>
-
-      {detailsOpen && selectedEvent && (
-        <div className="modal-backdrop" onClick={closeDetails}>
-          <aside className="modal-card details-modal" onClick={(e) => e.stopPropagation()}>
-            <button className="modal-close" onClick={closeDetails}>×</button>
-
-            <div className="details-header">
-              <h3 className="modal-title">{selectedEvent.title}</h3>
+            <div className="ieee-notice-body">
+              <p id="ieee-notice-desc" className="ieee-notice-text">
+                Each student is strictly allowed to register for only one event.
+              </p>
             </div>
 
-            <div className="modal-body">
-              <section className="about">
-                <h4>Event description</h4>
-                <div className="rounds-list">
-                  {selectedEvent.rounds.map((r, i) => (
-                    <div className="round-card" key={i}>
-                      <h5>{r.title}</h5>
-                      <p>{r.desc}</p>
-                    </div>
-                  ))}
-                </div>
-              </section>
+            <footer className="ieee-notice-footer">
+              <button className="btn solid" onClick={closeNotice}>
+                Understood
+              </button>
+            </footer>
+          </div>
+        </div>
+      )}
 
-              <section className="event-info">
-                <h4>Event Information</h4>
-                {/* <div className="info-card">
+
+      <div className="Event-page">
+        <header ref={headerRef} className="event-header">
+          <SparklesText
+            text="IEEE DAY 2025"
+            sparkleCount={25}
+            sparkleSize={18}
+            speed={0.5}
+            sparkleColors={["#FFD700", "#FF69B4", "#7b2dd1"]}
+            className="event-title"
+          />
+          <p className="event-subtitle">Celebrate. Learn. Build. Compete.</p>
+        </header>
+
+        <div className="event-type-container">
+          <button className={`type-btn ${selectedType === "events" ? "active" : ""}`} onClick={() => setSelectedType("events")}>
+            Events
+          </button>
+          <button className={`type-btn ${selectedType === "workshop" ? "active" : ""}`} onClick={() => setSelectedType("workshop")}>
+            Workshop
+          </button>
+        </div>
+
+        <section className={`events-lane ${selectedType === "events" ? "show" : "hide"}`} ref={eventsRef}>
+          <h2 className="lane-title">Events</h2>
+          {renderCards(technicalEvents)}
+        </section>
+
+        <section className={`events-lane ${selectedType === "workshop" ? "show" : "hide"}`} ref={workshopRef}>
+          <h2 className="lane-title">Workshop</h2>
+          {renderCards(workshopEvents)}
+        </section>
+
+        {detailsOpen && selectedEvent && (
+          <div className="modal-backdrop" onClick={closeDetails}>
+            <aside className="modal-card details-modal" onClick={(e) => e.stopPropagation()}>
+              <button className="modal-close" onClick={closeDetails}>×</button>
+
+              <div className="details-header">
+                <h3 className="modal-title">{selectedEvent.title}</h3>
+              </div>
+
+              <div className="modal-body">
+                <section className="about">
+                  <h4>Event description</h4>
+                  <div className="rounds-list">
+                    {selectedEvent.rounds.map((r, i) => (
+                      <div className="round-card" key={i}>
+                        <h5>{r.title}</h5>
+                        <p>{r.desc}</p>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+
+                <section className="event-info">
+                  <h4>Event Information</h4>
+                  {/* <div className="info-card">
                   <span>📅</span>
                   <div>
                     <div className="info-label">Date & Time</div>
                     <div className="info-value">{selectedEvent.dateTime}</div>
                   </div>
                 </div> */}
-                <div className="info-card">
-                  <span>👥</span>
-                  <div>
-                    <div className="info-label">Team Size</div>
-                    <div className="info-value">{selectedEvent.teamSize}</div>
-                  </div>
-                </div>
-              </section>
-
-              <section className="rules">
-                <h4>Rules & Guidelines</h4>
-                <ul className="rules-list">
-                  {(selectedEvent.rules && selectedEvent.rules.length > 0
-                    ? selectedEvent.rules
-                    : ["No Cheating allowed.", "Respect the environment.", "Be quick and efficient.", "No automated tools."]
-                  ).map((rule, i) => (
-                    <li key={i}>{rule}</li>
-                  ))}
-                </ul>
-              </section>
-
-              <section className="coordinators">
-                <h4>Event Coordinators</h4>
-                <div className="coordinator-grid">
-                  {selectedEvent.coordinators.map((c, i) => (
-                    <div className="coordinator-card" key={i}>
-                      <img src={c.img} alt={c.name} />
-                      <h5>{c.name}</h5>
-                      <p>{c.role}</p>
-                      <div className="socials">
-                        <a href={c.socials.linkedin} target="_blank" rel="noopener noreferrer">
-                          <RiLinkedinBoxFill className="social-icon linkedin" />
-                        </a>
-                        <a href={`tel:${c.socials.phone}`}>
-                          <RiPhoneFill className="social-icon phone" />
-                        </a>
-                      </div>
+                  <div className="info-card">
+                    <span>👥</span>
+                    <div>
+                      <div className="info-label">Team Size</div>
+                      <div className="info-value">{selectedEvent.teamSize}</div>
                     </div>
-                  ))}
-                </div>
-              </section>
-            </div>
+                  </div>
+                </section>
 
-            <div className="modal-footer">
-              <button className="btn ghost" onClick={closeDetails}>Close</button>
-              <button className="btn solid" onClick={() => onRegisterClick(selectedEvent)}>Register</button>
-            </div>
-          </aside>
-        </div>
-      )}
-    </div>
+                <section className="rules">
+                  <h4>Rules & Guidelines</h4>
+                  <ul className="rules-list">
+                    {(selectedEvent.rules && selectedEvent.rules.length > 0
+                      ? selectedEvent.rules
+                      : ["No Cheating allowed.", "Respect the environment.", "Be quick and efficient.", "No automated tools."]
+                    ).map((rule, i) => (
+                      <li key={i}>{rule}</li>
+                    ))}
+                  </ul>
+                </section>
+
+                <section className="coordinators">
+                  <h4>Event Coordinators</h4>
+                  <div className="coordinator-grid">
+                    {selectedEvent.coordinators.map((c, i) => (
+                      <div className="coordinator-card" key={i}>
+                        <img src={c.img} alt={c.name} />
+                        <h5>{c.name}</h5>
+                        <p>{c.role}</p>
+                        <div className="socials">
+                          <a href={c.socials.linkedin} target="_blank" rel="noopener noreferrer">
+                            <RiLinkedinBoxFill className="social-icon linkedin" />
+                          </a>
+                          <a href={`tel:${c.socials.phone}`}>
+                            <RiPhoneFill className="social-icon phone" />
+                          </a>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              </div>
+
+              <div className="modal-footer">
+                <button className="btn ghost" onClick={closeDetails}>Close</button>
+                <button className="btn solid" onClick={() => onRegisterClick(selectedEvent)}>Register</button>
+              </div>
+            </aside>
+          </div>
+        )}
+      </div>
+
+
+    </>
+
+
   );
 }

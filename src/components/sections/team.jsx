@@ -70,20 +70,20 @@ export default function Team() {
       // phone: "9962077773",
     },
     {
-      title: "Dr.K.Palanikumar",
-      name: "Principal of SIT",
-      // desc: "Head of SIT — academic & administrative leadership.",
-      img: sitprince,
-      // linkedin: "https://www.linkedin.com/in/dr-palanikumar-k-5ba50827",
-      // phone: "9677053338",
-    },
-    {
       title: "Dr.J.Raja",
       name: "Principal of SEC",
       // desc: "Student body representative.",
       img: secprince,
       // linkedin: "https://www.linkedin.com/in/raja-j-32b44164",
       // phone: "9962077773",
+    },
+    {
+      title: "Dr.K.Palanikumar",
+      name: "Principal of SIT",
+      // desc: "Head of SIT — academic & administrative leadership.",
+      img: sitprince,
+      // linkedin: "https://www.linkedin.com/in/dr-palanikumar-k-5ba50827",
+      // phone: "9677053338",
     },
   ];
 

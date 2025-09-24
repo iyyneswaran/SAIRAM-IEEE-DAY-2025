@@ -1,0 +1,90 @@
+/* Uses your --* color variables defined in your root (App.css) */
+
+/* canvas that draws falling particles */
+.custom-cursor-canvas {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9998;
+}
+
+/* the visible cursor (dot + halo) */
+.custom-cursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9999;
+    transition: transform 0.12s linear, box-shadow 0.15s ease, width 0.12s, height 0.12s;
+    background: radial-gradient(circle at 35% 30%,
+            rgba(255, 255, 255, 0.95) 0%,
+            rgba(255, 255, 255, 0.18) 25%,
+            transparent 60%);
+    box-shadow:
+        0 0 20px var(--accent),
+        0 0 40px rgba(123, 45, 209, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    will-change: left, top, transform;
+}
+
+/* halo / soft glow behind the dot */
+.custom-cursor::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    filter: blur(14px);
+    background: radial-gradient(circle, var(--accent) 0%, rgba(123, 45, 209, 0.06) 40%, transparent 70%);
+    opacity: 0.9;
+    pointer-events: none;
+}
+
+/* active (click) state — subtle scale + stronger glow */
+.custom-cursor.cursor--active,
+.custom-cursor.cursor--active::after {
+    transform: translate(-50%, -50%) scale(0.9);
+    box-shadow:
+        0 0 26px var(--accent),
+        0 0 55px rgba(123, 45, 209, 0.22);
+}
+
+/* Hide the system cursor globally, but allow it on interactive form elements */
+html,
+body,
+#root {
+    cursor: none;
+}
+
+input,
+textarea,
+select,
+button,
+a {
+    cursor: auto !important;
+}
+
+/* mobile / touch fallback: hide our custom cursor and restore native cursor */
+@media (pointer: coarse),
+(hover: none) {
+
+    .custom-cursor,
+    .custom-cursor-canvas {
+        display: none !important;
+    }
+
+    html,
+    body,
+    #root {
+        cursor: auto !important;
+    }
+}

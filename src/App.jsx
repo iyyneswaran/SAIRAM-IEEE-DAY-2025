@@ -4,10 +4,12 @@ import EventPage from './pages/EventsPage'
 import HomePage from './pages/HomePage'
 import TeamPage from './pages/TeamPage';
 import GalleryPage from './pages/GalleryPage';
+import CustomCursor from './components/common/CustomCursor';
 
 function App() {
   return (
     <>
+      <CustomCursor />
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />

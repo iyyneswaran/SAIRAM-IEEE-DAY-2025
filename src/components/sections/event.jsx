@@ -322,7 +322,7 @@ export default function Samplepage() {
           ]
         },
         coordinators: [
-          { name: "Aaditya Shyambarish ", role: "Influencer", img: adi, socials: { linkedin: "", phone: "9344373775" } },
+          { name: "Aaditya Shyambarish ", role: "Influencer", img: adi, socials: { linkedin: "https://www.linkedin.com/in/r-aaditya-shyambarish-43b957296/", phone: "9344373775" } },
           { name: "Pragadeeshwaran M ", role: "Communicator", img: prag, socials: { linkedin: "https://www.linkedin.com/in/pragadeeshwaran-m-15141a299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "8778677615" } },
           { name: "Sreelaya G ", role: "Influencer", img: sreelaya, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
         ],
@@ -618,13 +618,13 @@ export default function Samplepage() {
 
                   <section className="event-info">
                     <h4>Event Information</h4>
-                    <div className="info-card">
+                    {/* <div className="info-card">
                       <span>📅</span>
                       <div>
                         <div className="info-label">Date & Time</div>
                         <div className="info-value">{selectedEvent.dateTime}</div>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="info-card">
                       <span>👥</span>
                       <div>

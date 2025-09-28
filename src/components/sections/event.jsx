@@ -327,8 +327,8 @@ export default function Samplepage() {
         },
         coordinators: [
           { name: "Aaditya Shyambarish ", role: "Influencer", img: adi, socials: { linkedin: "https://www.linkedin.com/in/r-aaditya-shyambarish-43b957296/w", phone: "9344373775" } },
-          { name: "Pragadeeshwaran M ", role: "Communicator", img: prag, socials: { linkedin: "https://www.linkedin.com/in/pragadeeshwaran-m-15141a299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "8778677615" } },
           { name: "Sreelaya G ", role: "Influencer", img: sreelaya, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
+          { name: "Pragadeeshwaran M ", role: "Communicator", img: prag, socials: { linkedin: "https://www.linkedin.com/in/pragadeeshwaran-m-15141a299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "8778677615" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLScei2Gp_8fKPEFlQfsShAdyO8hGVrYyBFoUzo5ZPShjWcQkaw/viewform"
       },

@@ -280,6 +280,7 @@ export default function Samplepage() {
       {
         title: "Tech Leadership Conclave",
         dateTime: "09:30 AM – 03:50 PM (Date: Will be announced)",
+        totalseats: '120',
         teamSize: "Individual / Pitch Competition: Teams of 3",
         image: tech_leadership_conclave,
         category: "workshop",
@@ -302,7 +303,7 @@ export default function Samplepage() {
           "Aspiring / Budding Entrepreneurs."
         ],
         sampleSchedule: [
-          { time: "09:30 AM - 09:50 AM", activity: "On-spot registrations — First 90 seats reserved for pre-registrations" },
+          { time: "09:30 AM - 09:50 AM", activity: "On-spot registrations — First 120 seats reserved for pre-registrations" },
           { time: "10:00 AM - 11:05 AM", activity: "Tech Leadership Talk (Keynote by Ramdhan MP + insights)" },
           { time: "11:05 AM - 11:15 AM", activity: "Hi Tea / Networking" },
           { time: "11:15 AM - 12:35 PM", activity: "Entrepreneurship Insights — Panel discussion + Student interaction" },
@@ -562,7 +563,7 @@ export default function Samplepage() {
 
                     <section className="note">
                       <h4>Important</h4>
-                      <p>On-spot registrations: First 90 seats are reserved for pre-registrations. Please arrive 15 minutes before start time for seat allocation.</p>
+                      <p>On-spot registrations: First 120 seats are reserved for pre-registrations. Please arrive 15 minutes before start time for seat allocation.</p>
                     </section>
 
                     <section className="coordinators">

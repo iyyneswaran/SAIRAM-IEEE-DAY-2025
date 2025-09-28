@@ -42,7 +42,7 @@ export default function CustomCursor() {
                     x,
                     y,
                     vx: (Math.random() - 0.5) * 1.4,
-                    vy: Math.random() * 0.6 + 0.6, // initial downward speed
+                    vy: Math.random() * 0.6 + 0.6,
                     size: Math.random() * 2.4 + 0.8,
                     color: palette[Math.floor(Math.random() * palette.length)],
                     life: 0.9 + Math.random() * 0.9,
@@ -57,7 +57,6 @@ export default function CustomCursor() {
         function onPointerMove(e) {
             target.current.x = e.clientX;
             target.current.y = e.clientY;
-            // occasional small spawn for continuous trail
             spawnParticle(e.clientX, e.clientY, Math.random() > 0.6 ? 3 : 1);
         }
 
@@ -80,7 +79,6 @@ export default function CustomCursor() {
             const dt = Math.min(0.033, (t - last) / 1000);
             last = t;
 
-            // smooth cursor follow
             pos.current.x = lerp(pos.current.x, target.current.x, 0.18);
             pos.current.y = lerp(pos.current.y, target.current.y, 0.18);
             const c = cursorRef.current;
@@ -89,11 +87,10 @@ export default function CustomCursor() {
                 c.style.top = `${pos.current.y}px`;
             }
 
-            // draw particles
             ctx.clearRect(0, 0, canvas.width / dpr, canvas.height / dpr);
             for (let i = particles.current.length - 1; i >= 0; i--) {
                 const p = particles.current[i];
-                p.vy += 0.04 + Math.random() * 0.02; // gravity-ish
+                p.vy += 0.04 + Math.random() * 0.02;
                 p.x += p.vx;
                 p.y += p.vy;
                 p.life -= dt;
@@ -125,9 +122,7 @@ export default function CustomCursor() {
 
     return (
         <>
-            {/* canvas for particles */}
             <canvas ref={canvasRef} className="custom-cursor-canvas" />
-            {/* visible cursor dot + glow */}
             <div ref={cursorRef} className="custom-cursor" aria-hidden="true" />
         </>
     );

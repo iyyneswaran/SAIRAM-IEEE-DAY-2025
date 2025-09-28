@@ -638,8 +638,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: rgba(3, 8, 18, 0.6); */
-  background: var(--glass);
+  background: rgba(3, 8, 18, 0.6);
   z-index: 1200;
   padding: 2rem;
   backdrop-filter: blur(4px);
@@ -745,13 +744,11 @@ body {
   gap: 6px;
   margin-bottom: 6px;
 }
-
 .workshop-header .modal-title {
   font-size: 1.25rem;
   margin: 0;
   color: var(--ink);
 }
-
 .workshop-meta {
   font-size: 0.9rem;
   color: var(--muted);
@@ -766,27 +763,23 @@ body {
   grid-template-columns: 1fr 360px;
   gap: 20px;
   overflow-y: auto;
-  padding-right: 6px;
-  /* leave some room for scroll */
+  padding-right: 6px; /* leave some room for scroll */
 }
 
 /* left column */
 .workshop-left section {
   margin-bottom: 14px;
 }
-
 .objectives-list,
 .targets-list {
   margin: 8px 0 0 18px;
   color: var(--muted);
 }
-
 .pitch-section h5 {
   margin-top: 8px;
   margin-bottom: 6px;
   color: var(--accent-2);
 }
-
 .pitch-section ul,
 .pitch-section ol {
   margin-left: 18px;
@@ -805,50 +798,39 @@ body {
   display: flex;
   gap: 12px;
   align-items: center;
-  justify-content: center;
   padding: 12px;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.03);
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.03);
 }
-
 .guest-media img {
-  width: 92px !important;
-  height: 92px !important;
+  width: 72px;
+  height: 72px;
   object-fit: cover;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255,255,255,0.05);
 }
-
 .guest-fallback {
   width: 72px;
   height: 72px;
   display: grid;
   place-items: center;
-  background: linear-gradient(180deg, rgba(123, 45, 209, 0.12), rgba(255, 105, 180, 0.08));
+  background: linear-gradient(180deg, rgba(123,45,209,0.12), rgba(255,105,180,0.08));
   border-radius: 10px;
   font-weight: 700;
   color: var(--ink);
 }
-
 .guest-info h5 {
   margin: 0;
   color: var(--ink);
 }
-
 .guest-info p.guest-title {
   margin: 4px 0 8px;
   color: var(--muted);
   font-size: 0.9rem;
 }
-
-.guest-card .socials a {
-  margin-right: 8px;
-}
-
-.social-icon.instagram {
-  font-size: 1.25rem;
-}
+.guest-card .socials a { margin-right: 8px; }
+.social-icon.instagram { font-size: 1.25rem; }
 
 /* schedule */
 .schedule-list {
@@ -857,22 +839,19 @@ body {
   padding: 0;
   color: var(--muted);
 }
-
 .schedule-list li {
   display: flex;
   gap: 10px;
   align-items: flex-start;
   padding: 8px 6px;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.03);
+  border-bottom: 1px dashed rgba(255,255,255,0.03);
 }
-
 .schedule-list .time {
   min-width: 120px;
   font-size: 0.85rem;
   color: var(--muted);
   font-weight: 600;
 }
-
 .schedule-list .activity {
   flex: 1;
   font-size: 0.92rem;
@@ -883,10 +862,10 @@ body {
 .note {
   font-size: 0.9rem;
   color: var(--muted);
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(255,255,255,0.02);
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255,255,255,0.02);
 }
 
 /* coordinator grid slightly tighter for workshop panel */
@@ -895,12 +874,11 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
-
 .modal-card.workshop-modal .coordinator-card img {
-  width: 76px !important;
-  height: 76px !important;
+  width: 56px;
+  height: 56px;
   object-fit: cover;
-  border-radius: 50px !important;
+  border-radius: 8px;
 }
 
 /* modal footer actions align right */
@@ -909,7 +887,7 @@ body {
   justify-content: flex-end;
   gap: 10px;
   padding-top: 6px;
-  border-top: 1px solid rgba(255, 255, 255, 0.03);
+  border-top: 1px solid rgba(255,255,255,0.03);
 }
 
 /* responsive tweaks */
@@ -917,11 +895,9 @@ body {
   .modal-body.workshop-body {
     grid-template-columns: 1fr;
   }
-
   .workshop-right {
     order: 2;
   }
-
   .workshop-left {
     order: 1;
   }

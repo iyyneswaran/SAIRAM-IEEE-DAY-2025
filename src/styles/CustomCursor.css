@@ -1,6 +1,3 @@
-/* Uses your --* color variables defined in your root (App.css) */
-
-/* canvas that draws falling particles */
 .custom-cursor-canvas {
     position: fixed;
     inset: 0;
@@ -10,7 +7,6 @@
     z-index: 9998;
 }
 
-/* the visible cursor (dot + halo) */
 .custom-cursor {
     position: fixed;
     left: 0;
@@ -33,7 +29,6 @@
     will-change: left, top, transform;
 }
 
-/* halo / soft glow behind the dot */
 .custom-cursor::after {
     content: "";
     position: absolute;
@@ -49,7 +44,6 @@
     pointer-events: none;
 }
 
-/* active (click) state — subtle scale + stronger glow */
 .custom-cursor.cursor--active,
 .custom-cursor.cursor--active::after {
     transform: translate(-50%, -50%) scale(0.9);
@@ -58,7 +52,6 @@
         0 0 55px rgba(123, 45, 209, 0.22);
 }
 
-/* Hide the system cursor globally, but allow it on interactive form elements */
 html,
 body,
 #root {
@@ -73,7 +66,6 @@ a {
     cursor: auto !important;
 }
 
-/* mobile / touch fallback: hide our custom cursor and restore native cursor */
 @media (pointer: coarse),
 (hover: none) {
 

@@ -15,9 +15,8 @@ import promptopia from '../../assets/events-img/promptopia.jpg';
 import reverzion from '../../assets/events-img/reversee.jpg';
 import pwnage_party from '../../assets/events-img/pwnage_party.jpg';
 import soon from '../../assets/events-img/comingsoon.jpg';
-import tech_leadership_conclave from '../../assets/events-img/work1.jpg'
 
-// Coordinator images (you already had these)
+// Coordinator images
 import Vikrambose from "../../assets/coordinators/bose.jpg";
 import shivani from "../../assets/coordinators/SHIVANI png.png";
 import trivikraman from "../../assets/coordinators/Trivikraman.jpg";
@@ -29,24 +28,21 @@ import nataraj from '../../assets/coordinators/Nataraj EL_Vice Chair_Elect.jpg';
 import pavithran from '../../assets/coordinators/PAVITHRAN M - Present Secretary.jpg';
 import tejashree from '../../assets/coordinators/Tejashree M J_Secretary_Elect.jpg';
 import srinidhi from '../../assets/coordinators/SRINIDHI T - MAIN ( SECRETARY ).jpg';
-import lingesh from '../../assets/coordinators/LINGESH PT -Elect Communicator.jpg';
+import lingesh from '../../assets/coordinators/LINGESH PT -Elect Communicator.jpg'
 import balamurugan from '../../assets/coordinators/Balamurugan.jpg';
-import ajitha_anadhi from '../../assets/coordinators/ajithaanadhi.jpg';
-import sriram from '../../assets/coordinators/sriram.jpg';
-import parveenbegum from '../../assets/coordinators/parveenbegum.jpg';
-import sreelaya from '../../assets/coordinators/sreelaya.jpg';
-import sanjays from '../../assets/coordinators/SANJAY S(ELECTED CHAIRPERSON).png';
+import ajitha_anadhi from '../../assets/coordinators/ajithaanadhi.jpg'
+import sriram from '../../assets/coordinators/sriram.jpg'
+import parveenbegum from '../../assets/coordinators/parveenbegum.jpg'
+import sreelaya from '../../assets/coordinators/sreelaya.jpg'
+import sanjays from '../../assets/coordinators/SANJAY S(ELECTED CHAIRPERSON).png'
 import srinateesh from "../../assets/coordinators/SRINATHEESH S .png";
-import prag from '../../assets/coordinators/M PRAGADEESHWARAN_Communicator Elect.jpg'
-import adi from '../../assets/coordinators/Screenshot 2025-09-28 143208.png'
 
 
 import { RiLinkedinBoxFill, RiPhoneFill } from "react-icons/ri";
-import { AiFillInstagram } from "react-icons/ai";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function Samplepage() {
+export default function Events() {
   const [selectedType, setSelectedType] = useState("events");
   const [detailsOpen, setDetailsOpen] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -75,7 +71,7 @@ export default function Samplepage() {
           "Stick to the time limits for each round.",
           "Budgets should be clear, realistic, and well-justified.",
           "Teamwork and presentation skills will play a key role.",
-          "Judges’ decisions will be final and binding."
+          "Judges’ decisions will be final and binding."
         ]
       },
       {
@@ -135,7 +131,7 @@ export default function Samplepage() {
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSfmAVCD3TG1jJQZZBYYptP5MTSyaQt3W5jFB9ar2SCGvd46NQ/viewform?usp=header",
         rounds: [
-          { title: "", desc: "Promptopia is a thrilling AI-powered challenge where teams showcase creativity and prompt engineering skills across word guessing, image replication, and website design, blending innovation, observation, and AI collaboration for futuristic problem-solving." },
+          { title: "", desc: "**Promptopia** is a thrilling AI-powered challenge where teams showcase creativity and prompt engineering skills across word guessing, image replication, and website design, blending innovation, observation, and AI collaboration for futuristic problem-solving." },
         ],
         rules: [
           "Team Size: 2 -3 Members (Solo participation not allowed).",
@@ -256,7 +252,7 @@ export default function Samplepage() {
         category: "Non-Tech",
         coordinators: [
           { name: "Parveen Begum T", role: "Mastermind", img: parveenbegum, socials: { linkedin: "https://www.linkedin.com/in/parveen-begum-t-12b54a277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "9500177775" } },
-          { name: "Sreelaya G", role: "Influencer", img: sreelaya, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
+          { name: "Sreelaya", role: "Influencer", img: sreelaya, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
         ],
         googleForm: "https://docs.google.com/forms/d/e/1FAIpQLSdtQuKuSvDMLXJhhTJ13JBfSoTXSRTn4yHmbsJV_5EfDFvNaQ/viewform?usp=header",
         rounds: [
@@ -275,60 +271,47 @@ export default function Samplepage() {
   const workshopEvents = useMemo(
     () => [
       {
-        title: "Tech Leadership Conclave",
-        dateTime: "09:30 AM – 03:50 PM (Date: Will be announced)",
-        teamSize: "Individual / Pitch Competition: Teams of 3",
-        image: tech_leadership_conclave,
-        category: "workshop",
-        guest: {
-          name: "Ramdhan MP",
-          title: "Founder / CEO of Artyland",
-          img: Vikrambose,
-          socials: { instagram: "https://www.instagram.com/ramdhan.mpr/" }
-        },
-        theme: "Panel discussion + workshops around tech leadership, project management, and entrepreneurship.",
-        objectives: [
-          "Understand core principles of tech leadership and project management.",
-          "Know IEEE standards and how they inform technical leadership.",
-          "Gain entrepreneurship insights and practical next steps to start.",
-          "Participate in a hands-on on-spot pitch competition to apply learnings."
-        ],
-        targetParticipants: [
-          "Engineering, Science and Technology Students (UG/PG) and MBA.",
-          "Research Scholars & Innovators.",
-          "Aspiring / Budding Entrepreneurs."
-        ],
-        sampleSchedule: [
-          { time: "09:30 AM - 09:50 AM", activity: "On-spot registrations — First 90 seats reserved for pre-registrations" },
-          { time: "10:00 AM - 11:05 AM", activity: "Tech Leadership Talk (Keynote by Ramdhan MP + insights)" },
-          { time: "11:05 AM - 11:15 AM", activity: "Hi Tea / Networking" },
-          { time: "11:15 AM - 12:35 PM", activity: "Entrepreneurship Insights — Panel discussion + Student interaction" },
-          { time: "12:35 PM - 01:40 PM", activity: "Lunch Break" },
-          { time: "01:40 PM - 03:30 PM", activity: "On-spot Pitch Team Competition" },
-          { time: "03:30 PM - 03:50 PM", activity: "Wrap-up & Announcements" }
-        ],
-        pitchDetails: {
-          description: "On-Spot Pitch Team Competition — teams will have limited time to ideate and present a minimal go-to-market plan. Judges will evaluate feasibility, innovation, team communication, and scalability.",
-          teamRules: [
-            "Teams of up to 3 members.",
-            "Pitch time: 3 minutes + 2 minutes Q&A.",
-            "Use of slides OK (USB or mobile). Keep it concise."
-          ],
-          judgingCriteria: [
-            "Problem clarity & market understanding",
-            "Feasibility & technical soundness",
-            "Business potential & impact",
-            "Presentation & Q/A handling"
-          ]
-        },
+        title: "Something exciting is brewing, Stay tuned for an exclusive reveal!",
+        dateTime: "Will be announced soon",
+        teamSize: "Individual",
+        image: soon,
         coordinators: [
-          { name: "Aaditya Shyambarish ", role: "Influencer", img: adi, socials: { linkedin: "", phone: "9344373775" } },
-          { name: "Pragadeeshwaran M ", role: "Communicator", img: prag, socials: { linkedin: "https://www.linkedin.com/in/pragadeeshwaran-m-15141a299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "8778677615" } },
-          { name: "Sreelaya G ", role: "Influencer", img: sreelaya, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
+          // { name: "Sarah Wilson", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/sarah", phone: "5566778899" } },
+          // { name: "Vikram Patel", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/vikram", phone: "6677889900" } },
         ],
-        googleForm: "https://docs.google.com/forms/d/e/1FAIpQLScei2Gp_8fKPEFlQfsShAdyO8hGVrYyBFoUzo5ZPShjWcQkaw/viewform"
+        googleForm: "",
+        rounds: [
+          { title: "", desc: "Something exciting is brewing, stay tuned for an exclusive reveal!" },
+          // { title: "Session 2: Hands-On", desc: "Practical exploration with robotics kits." },
+          // { title: "Session 3: Build & Showcase", desc: "Build your own AI-driven mini bot and showcase." }
+        ],
+        rules: [
+          "Stay tuned for an exclusive reveal!",
+          // "Teamwork is encouraged but individual work graded.",
+          // "All robots must be returned intact after session."
+        ]
       },
-      // other workshops data comes here and i have that
+      {
+        title: "Something exciting is brewing, Stay tuned for an exclusive reveal!",
+        dateTime: "Will be announced soon",
+        teamSize: "Individual",
+        image: soon,
+        coordinators: [
+          // { name: "Sarah Wilson", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/sarah", phone: "5566778899" } },
+          // { name: "Vikram Patel", role: "Coordinator", img: trivikraman, socials: { linkedin: "https://linkedin.com/in/vikram", phone: "6677889900" } },
+        ],
+        googleForm: "",
+        rounds: [
+          { title: "", desc: "Something exciting is brewing, stay tuned for an exclusive reveal!" },
+          // { title: "Session 2: Hands-On", desc: "Practical exploration with robotics kits." },
+          // { title: "Session 3: Build & Showcase", desc: "Build your own AI-driven mini bot and showcase." }
+        ],
+        rules: [
+          "Stay tuned for an exclusive reveal!",
+          // "Teamwork is encouraged but individual work graded.",
+          // "All robots must be returned intact after session."
+        ]
+      },
     ],
     []
   );
@@ -364,7 +347,7 @@ export default function Samplepage() {
             <h3 className="card-title">{ev.title}</h3>
             {ev.category && (
               <span className={`category-tag ${ev.category}`}>
-                {ev.category === "tech" ? "Tech" : ev.category === "workshop" ? "Workshop" : "Non-Tech"}
+                {ev.category === "tech" ? "Tech" : "Non-Tech"}
               </span>
             )}
             <div className="card-actions">
@@ -473,207 +456,83 @@ export default function Samplepage() {
 
         {detailsOpen && selectedEvent && (
           <div className="modal-backdrop" onClick={closeDetails}>
-            {selectedEvent.category === "workshop" ? (
-              // --- Workshop-special modal layout ---
-              <aside className="modal-card workshop-modal" onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" aria-labelledby="workshop-title">
-                <button className="modal-close" onClick={closeDetails} aria-label="Close">×</button>
+            <aside className="modal-card details-modal" onClick={(e) => e.stopPropagation()}>
+              <button className="modal-close" onClick={closeDetails}>×</button>
 
-                <header className="workshop-header">
-                  <h3 id="workshop-title" className="modal-title">{selectedEvent.title}</h3>
-                  <div className="workshop-meta">
-                    <span className="when">{selectedEvent.dateTime}</span>
-                    <span className="dot">•</span>
-                    <span className="size">{selectedEvent.teamSize}</span>
-                  </div>
-                </header>
+              <div className="details-header">
+                <h3 className="modal-title">{selectedEvent.title}</h3>
+              </div>
 
-                <div className="modal-body workshop-body">
-                  <div className="workshop-left">
-                    <section className="about">
-                      <h4>Theme</h4>
-                      <p>{selectedEvent.theme}</p>
-                    </section>
-
-                    <section className="objectives">
-                      <h4>Student Takeaways</h4>
-                      <ul className="objectives-list">
-                        {selectedEvent.objectives.map((o, idx) => <li key={idx}>{o}</li>)}
-                      </ul>
-                    </section>
-
-                    <section className="targets">
-                      <h4>Who should attend</h4>
-                      <ul className="targets-list">
-                        {selectedEvent.targetParticipants.map((t, idx) => <li key={idx}>{t}</li>)}
-                      </ul>
-                    </section>
-
-                    <section className="pitch-section">
-                      <h4>On-Spot Pitch Competition</h4>
-                      <p>{selectedEvent.pitchDetails.description}</p>
-                      <h5>Team rules</h5>
-                      <ul>
-                        {selectedEvent.pitchDetails.teamRules.map((r, i) => <li key={i}>{r}</li>)}
-                      </ul>
-
-                      <h5>Judging criteria</h5>
-                      <ol>
-                        {selectedEvent.pitchDetails.judgingCriteria.map((c, i) => <li key={i}>{c}</li>)}
-                      </ol>
-                    </section>
-                  </div>
-
-                  <aside className="workshop-right">
-                    <section className="guest-card">
-                      <div className="guest-media">
-                        {selectedEvent.guest?.img ? (
-                          <img src={selectedEvent.guest.img} alt={selectedEvent.guest.name} />
-                        ) : (
-                          <div className="guest-fallback">{selectedEvent.guest?.name?.split(" ").map(n => n[0]).join("")}</div>
-                        )}
+              <div className="modal-body">
+                <section className="about">
+                  <h4>Event description</h4>
+                  <div className="rounds-list">
+                    {selectedEvent.rounds.map((r, i) => (
+                      <div className="round-card" key={i}>
+                        <h5>{r.title}</h5>
+                        <p>{r.desc}</p>
                       </div>
-                      <div className="guest-info">
-                        <h5>{selectedEvent.guest?.name}</h5>
-                        <p className="guest-title">{selectedEvent.guest?.title}</p>
+                    ))}
+                  </div>
+                </section>
+
+                <section className="event-info">
+                  <h4>Event Information</h4>
+                  {/* <div className="info-card">
+                  <span>📅</span>
+                  <div>
+                    <div className="info-label">Date & Time</div>
+                    <div className="info-value">{selectedEvent.dateTime}</div>
+                  </div>
+                </div> */}
+                  <div className="info-card">
+                    <span>👥</span>
+                    <div>
+                      <div className="info-label">Team Size</div>
+                      <div className="info-value">{selectedEvent.teamSize}</div>
+                    </div>
+                  </div>
+                </section>
+
+                <section className="rules">
+                  <h4>Rules & Guidelines</h4>
+                  <ul className="rules-list">
+                    {(selectedEvent.rules && selectedEvent.rules.length > 0
+                      ? selectedEvent.rules
+                      : ["No Cheating allowed.", "Respect the environment.", "Be quick and efficient.", "No automated tools."]
+                    ).map((rule, i) => (
+                      <li key={i}>{rule}</li>
+                    ))}
+                  </ul>
+                </section>
+
+                <section className="coordinators">
+                  <h4>Event Coordinators</h4>
+                  <div className="coordinator-grid">
+                    {selectedEvent.coordinators.map((c, i) => (
+                      <div className="coordinator-card" key={i}>
+                        <img src={c.img} alt={c.name} />
+                        <h5>{c.name}</h5>
+                        <p>{c.role}</p>
                         <div className="socials">
-                          {selectedEvent.guest?.socials?.instagram && (
-                            <a href={selectedEvent.guest.socials.instagram} target="_blank" rel="noopener noreferrer" aria-label="Guest Instagram">
-                              <AiFillInstagram className="social-icon instagram" />
-                            </a>
-                          )}
+                          <a href={c.socials.linkedin} target="_blank" rel="noopener noreferrer">
+                            <RiLinkedinBoxFill className="social-icon linkedin" />
+                          </a>
+                          <a href={`tel:${c.socials.phone}`}>
+                            <RiPhoneFill className="social-icon phone" />
+                          </a>
                         </div>
                       </div>
-                    </section>
+                    ))}
+                  </div>
+                </section>
+              </div>
 
-                    <section className="schedule">
-                      <h4>Schedule</h4>
-                      <ul className="schedule-list">
-                        {selectedEvent.sampleSchedule.map((s, i) => (
-                          <li key={i}>
-                            <span className="time">{s.time}</span>
-                            <span className="activity">{s.activity}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </section>
-
-                    <section className="note">
-                      <h4>Important</h4>
-                      <p>On-spot registrations: First 90 seats are reserved for pre-registrations. Please arrive 15 minutes before start time for seat allocation.</p>
-                    </section>
-
-                    <section className="coordinators">
-                      <h4>Coordinators</h4>
-                      <div className="coordinator-grid">
-                        {selectedEvent.coordinators.map((c, i) => (
-                          <div className="coordinator-card" key={i}>
-                            <img src={c.img} alt={c.name} />
-                            <h5>{c.name}</h5>
-                            <p>{c.role}</p>
-                            <div className="socials">
-                              {c.socials?.linkedin && (
-                                <a href={c.socials.linkedin} target="_blank" rel="noopener noreferrer">
-                                  <RiLinkedinBoxFill className="social-icon linkedin" />
-                                </a>
-                              )}
-                              {c.socials?.phone && (
-                                <a href={`tel:${c.socials.phone}`}>
-                                  <RiPhoneFill className="social-icon phone" />
-                                </a>
-                              )}
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </section>
-                  </aside>
-                </div>
-
-                <footer className="modal-footer">
-                  <button className="btn ghost" onClick={closeDetails}>Close</button>
-                  <button className="btn solid" onClick={() => onRegisterClick(selectedEvent)}>Register</button>
-                </footer>
-              </aside>
-            ) : (
-
-              <aside className="modal-card details-modal" onClick={(e) => e.stopPropagation()}>
-                <button className="modal-close" onClick={closeDetails}>×</button>
-
-                <div className="details-header">
-                  <h3 className="modal-title">{selectedEvent.title}</h3>
-                </div>
-
-                <div className="modal-body">
-                  <section className="about">
-                    <h4>Event description</h4>
-                    <div className="rounds-list">
-                      {selectedEvent.rounds.map((r, i) => (
-                        <div className="round-card" key={i}>
-                          <h5>{r.title}</h5>
-                          <p>{r.desc}</p>
-                        </div>
-                      ))}
-                    </div>
-                  </section>
-
-                  <section className="event-info">
-                    <h4>Event Information</h4>
-                    <div className="info-card">
-                      <span>📅</span>
-                      <div>
-                        <div className="info-label">Date & Time</div>
-                        <div className="info-value">{selectedEvent.dateTime}</div>
-                      </div>
-                    </div>
-                    <div className="info-card">
-                      <span>👥</span>
-                      <div>
-                        <div className="info-label">Team Size</div>
-                        <div className="info-value">{selectedEvent.teamSize}</div>
-                      </div>
-                    </div>
-                  </section>
-
-                  <section className="rules">
-                    <h4>Rules & Guidelines</h4>
-                    <ul className="rules-list">
-                      {(selectedEvent.rules && selectedEvent.rules.length > 0
-                        ? selectedEvent.rules
-                        : ["No Cheating allowed.", "Respect the environment.", "Be quick and efficient.", "No automated tools."]
-                      ).map((rule, i) => (
-                        <li key={i}>{rule}</li>
-                      ))}
-                    </ul>
-                  </section>
-
-                  <section className="coordinators">
-                    <h4>Event Coordinators</h4>
-                    <div className="coordinator-grid">
-                      {selectedEvent.coordinators.map((c, i) => (
-                        <div className="coordinator-card" key={i}>
-                          <img src={c.img} alt={c.name} />
-                          <h5>{c.name}</h5>
-                          <p>{c.role}</p>
-                          <div className="socials">
-                            <a href={c.socials.linkedin} target="_blank" rel="noopener noreferrer">
-                              <RiLinkedinBoxFill className="social-icon linkedin" />
-                            </a>
-                            <a href={`tel:${c.socials.phone}`}>
-                              <RiPhoneFill className="social-icon phone" />
-                            </a>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </section>
-                </div>
-
-                <div className="modal-footer">
-                  <button className="btn ghost" onClick={closeDetails}>Close</button>
-                  <button className="btn solid" onClick={() => onRegisterClick(selectedEvent)}>Register</button>
-                </div>
-              </aside>
-            )}
+              <div className="modal-footer">
+                <button className="btn ghost" onClick={closeDetails}>Close</button>
+                <button className="btn solid" onClick={() => onRegisterClick(selectedEvent)}>Register</button>
+              </div>
+            </aside>
           </div>
         )}
       </div>

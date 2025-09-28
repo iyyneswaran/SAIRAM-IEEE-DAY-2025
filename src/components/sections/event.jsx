@@ -40,6 +40,9 @@ import srinateesh from "../../assets/coordinators/SRINATHEESH S .png";
 import prag from '../../assets/coordinators/M PRAGADEESHWARAN_Communicator Elect.jpg'
 import adi from '../../assets/coordinators/Screenshot 2025-09-28 143208.png'
 
+// guest 
+import guest1 from '../../assets/coordinators/Screenshot 2025-09-28 215734.png'
+
 
 import { RiLinkedinBoxFill, RiPhoneFill } from "react-icons/ri";
 import { AiFillInstagram } from "react-icons/ai";
@@ -283,7 +286,7 @@ export default function Samplepage() {
         guest: {
           name: "Ramdhan MP",
           title: "Founder / CEO of Artyland",
-          img: Vikrambose,
+          img: guest1,
           socials: { instagram: "https://www.instagram.com/ramdhan.mpr/" }
         },
         theme: "Panel discussion + workshops around tech leadership, project management, and entrepreneurship.",
@@ -322,7 +325,7 @@ export default function Samplepage() {
           ]
         },
         coordinators: [
-          { name: "Aaditya Shyambarish ", role: "Influencer", img: adi, socials: { linkedin: "https://www.linkedin.com/in/r-aaditya-shyambarish-43b957296/", phone: "9344373775" } },
+          { name: "Aaditya Shyambarish ", role: "Influencer", img: adi, socials: { linkedin: "https://www.linkedin.com/in/r-aaditya-shyambarish-43b957296/w", phone: "9344373775" } },
           { name: "Pragadeeshwaran M ", role: "Communicator", img: prag, socials: { linkedin: "https://www.linkedin.com/in/pragadeeshwaran-m-15141a299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", phone: "8778677615" } },
           { name: "Sreelaya G ", role: "Influencer", img: sreelaya, socials: { linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290", phone: "9043629957" } },
         ],

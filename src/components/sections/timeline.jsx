@@ -54,7 +54,7 @@ export default function Timeline() {
     1: [
       { title: "Event Registration starts", desc: "Date: 15.09.2025" },
       { title: "Event Registration closes", desc: "Date: 26.09.2025" },
-      { title: "IEEE DAY", desc: "Date: 13.10.2025 & 14.10.2025" },
+      { title: "IEEE DAY", desc: "Date: 07.10.2025, 08.10.2025 & 10.10.2025" },
       // { title: "IEEE DAy", desc: "Date: 20.09.2025" },
     ],
     2: [

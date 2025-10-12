@@ -375,7 +375,7 @@ export default function Samplepage() {
               <button className="btn view-btn" onClick={() => openDetails(ev)}>
                 <span>Details</span>
               </button>
-              <button className="btn register-link" onClick={() => onRegisterClick(ev)}>
+              <button className="btn register-link" disabled onClick={() => onRegisterClick(ev)}>
                 <span>Register</span>
               </button>
             </div>

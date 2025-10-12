@@ -55,6 +55,8 @@ import secElectChair from '../../assets/coordinators/SANJAY S(ELECTED CHAIRPERSO
 import secPresentCom from '../../assets/coordinators/SRI SAAI SEENU D J - PRESENT COMMUNICATOR_.jpg'
 import secMainSecr from '../../assets/coordinators/SRINIDHI T - MAIN ( SECRETARY ).jpg'
 import secElectSecr from '../../assets/coordinators/Tejashree M J_Secretary_Elect.jpg'
+import adi from '../../assets/coordinators/Screenshot 2025-09-28 143208.png'
+import sreelaya from '../../assets/coordinators/sreelaya.jpg';
 
 
 export default function Team() {
@@ -383,6 +385,20 @@ export default function Team() {
       img: shreyas,
       linkedin: "https://www.linkedin.com/in/shreyasdhanabal2905?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "9952942852",
+    },
+    {
+      title: "Aaditya Shyambarish",
+      name: "Influencer",
+      img: adi,
+      linkedin: "https://www.linkedin.com/in/r-aaditya-shyambarish-43b957296/w",
+      phone: "9344373775",
+    },
+    {
+      title: "Sreelaya G",
+      name: "Influencer",
+      img: sreelaya,
+      linkedin: "http://linkedin.com/in/sreelaya-gopal-b0a584290",
+      phone: "9043629957",
     },
   ];
 
